@@ -1,0 +1,589 @@
+LOCUS       NM_003998               4093 bp    mRNA    linear   PRI 01-NOV-2017
+DEFINITION  Homo sapiens nuclear factor kappa B subunit 1 (NFKB1), transcript
+            variant 1, mRNA.
+ACCESSION   NM_003998
+VERSION     NM_003998.3  GI:259155300
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 4093)
+  AUTHORS   Lapid D, Lahav-Baratz S and Cohen S.
+  TITLE     A20 inhibits both the degradation and limited processing of the
+            NF-kappaB p105 precursor: A novel additional layer to its regulator
+            role
+  JOURNAL   Biochem. Biophys. Res. Commun. 493 (1), 52-57 (2017)
+   PUBMED   28923245
+  REMARK    GeneRIF: Our data propose an additional novel mechanism to explain
+            the known NF-kappaB inhibitory effects of A20: by affecting p105
+            ubiquitination and subsequently its degradation and limited
+            processing.
+REFERENCE   2  (bases 1 to 4093)
+  AUTHORS   Azizan N, Suter MA, Liu Y and Logsdon CD.
+  TITLE     RAGE maintains high levels of NFkappaB and oncogenic Kras activity
+            in pancreatic cancer
+  JOURNAL   Biochem. Biophys. Res. Commun. 493 (1), 592-597 (2017)
+   PUBMED   28867179
+  REMARK    GeneRIF: These data indicate that RAGE plays a central role in
+            maintaining inflammatory signaling in PDAC that benefits tumor
+            growth.
+REFERENCE   3  (bases 1 to 4093)
+  AUTHORS   Victor AR, Nalin AP, Dong W, McClory S, Wei M, Mao C, Kladney RD,
+            Youssef Y, Chan WK, Briercheck EL, Hughes T, Scoville SD, Pitarresi
+            JR, Chen C, Manz S, Wu LC, Zhang J, Ostrowski MC, Freud AG, Leone
+            GW, Caligiuri MA and Yu J.
+  TITLE     IL-18 Drives ILC3 Proliferation and Promotes IL-22 Production via
+            NF-kappaB
+  JOURNAL   J. Immunol. 199 (7), 2333-2342 (2017)
+   PUBMED   28842466
+  REMARK    GeneRIF: IL-18 cooperates with IL-15 to promote group 3 innate
+            lymphoid cell (ILC3) proliferation and IL-22 production; describe
+            an IL-18-induced, NF-kappaB-mediated mechanism that regulates IL-22
+            in ILC3s; at steady-state, IL-18 produced by dendritic cells
+            mediates IL-22 production by ILC3s to help maintain normal tissue
+            integrity
+REFERENCE   4  (bases 1 to 4093)
+  AUTHORS   Lin L and Ghosh S.
+  TITLE     A glycine-rich region in NF-kappaB p105 functions as a processing
+            signal for the generation of the p50 subunit
+  JOURNAL   Mol. Cell. Biol. 16 (5), 2248-2254 (1996)
+   PUBMED   8628291
+REFERENCE   5  (bases 1 to 4093)
+  AUTHORS   Muller CW, Rey FA, Sodeoka M, Verdine GL and Harrison SC.
+  TITLE     Structure of the NF-kappa B p50 homodimer bound to DNA
+  JOURNAL   Nature 373 (6512), 311-317 (1995)
+   PUBMED   7830764
+REFERENCE   6  (bases 1 to 4093)
+  AUTHORS   Kunsch C, Ruben SM and Rosen CA.
+  TITLE     Selection of optimal kappa B/Rel DNA-binding motifs: interaction of
+            both subunits of NF-kappa B with DNA is required for
+            transcriptional activation
+  JOURNAL   Mol. Cell. Biol. 12 (10), 4412-4421 (1992)
+   PUBMED   1406630
+REFERENCE   7  (bases 1 to 4093)
+  AUTHORS   LeClair KP, Blanar MA and Sharp PA.
+  TITLE     The p50 subunit of NF-kappa B associates with the NF-IL6
+            transcription factor
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 89 (17), 8145-8149 (1992)
+   PUBMED   1518839
+REFERENCE   8  (bases 1 to 4093)
+  AUTHORS   Taylor JP, Pomerantz R, Bagasra O, Chowdhury M, Rappaport J,
+            Khalili K and Amini S.
+  TITLE     TAR-independent transactivation by Tat in cells derived from the
+            CNS: a novel mechanism of HIV-1 gene regulation
+  JOURNAL   EMBO J. 11 (9), 3395-3403 (1992)
+   PUBMED   1505523
+REFERENCE   9  (bases 1 to 4093)
+  AUTHORS   Urban MB, Schreck R and Baeuerle PA.
+  TITLE     NF-kappa B contacts DNA by a heterodimer of the p50 and p65 subunit
+  JOURNAL   EMBO J. 10 (7), 1817-1825 (1991)
+   PUBMED   2050119
+REFERENCE   10 (bases 1 to 4093)
+  AUTHORS   Bours V, Villalobos J, Burd PR, Kelly K and Siebenlist U.
+  TITLE     Cloning of a mitogen-inducible gene encoding a kappa B DNA-binding
+            protein with homology to the rel oncogene and to cell-cycle motifs
+  JOURNAL   Nature 348 (6296), 76-80 (1990)
+   PUBMED   2234062
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from BC051765.1, AF213884.2 and
+            AI076882.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            On Sep 24, 2009 this sequence version replaced gi:34577121.
+            
+            Summary: This gene encodes a 105 kD protein which can undergo
+            cotranslational processing by the 26S proteasome to produce a 50 kD
+            protein. The 105 kD protein is a Rel protein-specific transcription
+            inhibitor and the 50 kD protein is a DNA binding subunit of the
+            NF-kappa-B (NFKB) protein complex. NFKB is a transcription
+            regulator that is activated by various intra- and extra-cellular
+            stimuli such as cytokines, oxidant-free radicals, ultraviolet
+            irradiation, and bacterial or viral products. Activated NFKB
+            translocates into the nucleus and stimulates the expression of
+            genes involved in a wide variety of biological functions.
+            Inappropriate activation of NFKB has been associated with a number
+            of inflammatory diseases while persistent inhibition of NFKB leads
+            to inappropriate immune cell development or delayed cell growth.
+            Alternative splicing results in multiple transcript variants
+            encoding different isoforms, at least one of which is
+            proteolytically processed. [provided by RefSeq, Feb 2016].
+            
+            Transcript Variant: This variant (1) represents the longest
+            transcript and encodes the longer isoform (1). This isoform (1) may
+            undergo proteolytic processing similar to that of isoform 2.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC051765.1, M55643.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-1609              BC051765.1         1-1609
+            1610-1610           AF213884.2         158245-158245
+            1611-3896           BC051765.1         1611-3896
+            3897-4093           AI076882.1         1-197               c
+FEATURES             Location/Qualifiers
+     source          1..4093
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="4"
+                     /map="4q24"
+     gene            1..4093
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /note="nuclear factor kappa B subunit 1"
+                     /db_xref="GeneID:4790"
+                     /db_xref="HGNC:HGNC:7794"
+                     /db_xref="MIM:164011"
+     exon            1..460
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     misc_feature    408..410
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /note="upstream in-frame stop codon"
+     exon            461..506
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     CDS             468..3377
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /note="isoform 1 is encoded by transcript variant 1;
+                     NF-kappabeta; nuclear factor kappa-B DNA binding subunit;
+                     nuclear factor NF-kappa-B p50 subunit; nuclear factor
+                     NF-kappa-B p105 subunit; DNA-binding factor KBF1; nuclear
+                     factor of kappa light polypeptide gene enhancer in B-cells
+                     1"
+                     /codon_start=1
+                     /product="nuclear factor NF-kappa-B p105 subunit isoform
+                     1"
+                     /protein_id="NP_003989.2"
+                     /db_xref="GI:34577122"
+                     /db_xref="CCDS:CCDS3657.1"
+                     /db_xref="GeneID:4790"
+                     /db_xref="HGNC:HGNC:7794"
+                     /db_xref="MIM:164011"
+                     /translation="MAEDDPYLGRPEQMFHLDPSLTHTIFNPEVFQPQMALPTADGPY
+                     LQILEQPKQRGFRFRYVCEGPSHGGLPGASSEKNKKSYPQVKICNYVGPAKVIVQLVT
+                     NGKNIHLHAHSLVGKHCEDGICTVTAGPKDMVVGFANLGILHVTKKKVFETLEARMTE
+                     ACIRGYNPGLLVHPDLAYLQAEGGGDRQLGDREKELIRQAALQQTKEMDLSVVRLMFT
+                     AFLPDSTGSFTRRLEPVVSDAIYDSKAPNASNLKIVRMDRTAGCVTGGEEIYLLCDKV
+                     QKDDIQIRFYEEEENGGVWEGFGDFSPTDVHRQFAIVFKTPKYKDINITKPASVFVQL
+                     RRKSDLETSEPKPFLYYPEIKDKEEVQRKRQKLMPNFSDSFGGGSGAGAGGGGMFGSG
+                     GGGGGTGSTGPGYSFPHYGFPTYGGITFHPGTTKSNAGMKHGTMDTESKKDPEGCDKS
+                     DDKNTVNLFGKVIETTEQDQEPSEATVGNGEVTLTYATGTKEESAGVQDNLFLEKAMQ
+                     LAKRHANALFDYAVTGDVKMLLAVQRHLTAVQDENGDSVLHLAIIHLHSQLVRDLLEV
+                     TSGLISDDIINMRNDLYQTPLHLAVITKQEDVVEDLLRAGADLSLLDRLGNSVLHLAA
+                     KEGHDKVLSILLKHKKAALLLDHPNGDGLNAIHLAMMSNSLPCLLLLVAAGADVNAQE
+                     QKSGRTALHLAVEHDNISLAGCLLLEGDAHVDSTTYDGTTPLHIAAGRGSTRLAALLK
+                     AAGADPLVENFEPLYDLDDSWENAGEDEGVVPGTTPLDMATSWQVFDILNGKPYEPEF
+                     TSDDLLAQGDMKQLAEDVKLQLYKLLEIPDPDKNWATLAQKLGLGILNNAFRLSPAPS
+                     KTLMDNYEVSGGTVRELVEALRQMGYTEAIEVIQAASSPVKTTSQAHSLPLSPASTRQ
+                     QIDELRDSDSVCDSGVETSFRKLSFTESLTSGASLLTLNKMPHDYGQEGPLEGKI"
+     misc_feature    651..653
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="S-nitrosocysteine, alternate.
+                     {ECO:0000269|PubMed:8710491}; propagated from
+                     UniProtKB/Swiss-Prot (P19838.2); nitrosylation site"
+     misc_feature    1479..1481
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by PKA. {ECO:0000255}; propagated
+                     from UniProtKB/Swiss-Prot (P19838.2); phosphorylation
+                     site"
+     misc_feature    1548..1565
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P19838.2);
+                     Region: Nuclear localization signal. {ECO:0000255}"
+     misc_feature    1584..1652
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P19838.2);
+                     Region: GRR"
+     misc_feature    1761..1763
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine, by EP300.
+                     {ECO:0000305|PubMed:11739381}; propagated from
+                     UniProtKB/Swiss-Prot (P19838.2); acetylation site"
+     misc_feature    1767..1772
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cleavage (when cotranslationally processed);
+                     propagated from UniProtKB/Swiss-Prot (P19838.2); cleavage
+                     site"
+     misc_feature    1773..3374
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P19838.2);
+                     Region: Interaction with CFLAR.
+                     {ECO:0000269|PubMed:13679070}"
+     misc_feature    1788..1790
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine, by EP300.
+                     {ECO:0000305|PubMed:11739381}; propagated from
+                     UniProtKB/Swiss-Prot (P19838.2); acetylation site"
+     misc_feature    1791..1793
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine, by EP300.
+                     {ECO:0000305|PubMed:11739381}; propagated from
+                     UniProtKB/Swiss-Prot (P19838.2); acetylation site"
+     misc_feature    1815..1817
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P25799};
+                     propagated from UniProtKB/Swiss-Prot (P19838.2);
+                     phosphorylation site"
+     misc_feature    2418..2522
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P19838.2);
+                     Region: Essential for interaction with HIF1AN.
+                     {ECO:0000269|PubMed:17003112}"
+     misc_feature    2502..2504
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="(3S)-3-hydroxyasparagine, by HIF1AN, partial.
+                     {ECO:0000269|PubMed:17003112}; propagated from
+                     UniProtKB/Swiss-Prot (P19838.2); hydroxylation site"
+     misc_feature    2745..2747
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:Q63369};
+                     propagated from UniProtKB/Swiss-Prot (P19838.2);
+                     phosphorylation site"
+     misc_feature    3144..3146
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:24275569};
+                     propagated from UniProtKB/Swiss-Prot (P19838.2);
+                     phosphorylation site"
+     misc_feature    3177..3179
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by GSK3-beta, in vitro.
+                     {ECO:0000244|PubMed:23186163,
+                     ECO:0000269|PubMed:12871932}; propagated from
+                     UniProtKB/Swiss-Prot (P19838.2); phosphorylation site"
+     misc_feature    3189..3191
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by GSK3-beta, in vitro.
+                     {ECO:0000244|PubMed:23186163,
+                     ECO:0000269|PubMed:12871932}; propagated from
+                     UniProtKB/Swiss-Prot (P19838.2); phosphorylation site"
+     misc_feature    3249..3251
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by IKKB.
+                     {ECO:0000269|PubMed:11297557,
+                     ECO:0000269|PubMed:12482991}; propagated from
+                     UniProtKB/Swiss-Prot (P19838.2); phosphorylation site"
+     misc_feature    3264..3266
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by IKKB.
+                     {ECO:0000269|PubMed:12482991}; propagated from
+                     UniProtKB/Swiss-Prot (P19838.2); phosphorylation site"
+     misc_feature    3279..3281
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:19690332};
+                     propagated from UniProtKB/Swiss-Prot (P19838.2);
+                     phosphorylation site"
+     misc_feature    3297..3299
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphothreonine. {ECO:0000250|UniProtKB:P25799};
+                     propagated from UniProtKB/Swiss-Prot (P19838.2);
+                     phosphorylation site"
+     exon            507..585
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            586..626
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            627..725
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            726..874
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            875..1038
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1039..1197
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1198..1302
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1303..1394
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1395..1533
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1534..1677
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1678..1767
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1768..1962
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1963..2104
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            2105..2219
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            2220..2421
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            2422..2591
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            2592..2694
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            2695..2819
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            2820..2886
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            2887..3059
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            3060..3216
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     exon            3217..4085
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /inference="alignment:Splign:2.0.8"
+     STS             3379..3528
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /standard_name="NFKB1"
+                     /db_xref="UniSTS:479868"
+     STS             3398..3697
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+                     /standard_name="SHGC-12798"
+                     /db_xref="UniSTS:32542"
+     regulatory      4056..4061
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+     polyA_site      4073
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+     polyA_site      4077
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+     polyA_site      4085
+                     /gene="NFKB1"
+                     /gene_synonym="CVID12; EBP-1; KBF1; NF-kappa-B; NF-kappaB;
+                     NF-kB1; NFkappaB; NFKB-p105; NFKB-p50; p105; p50"
+ORIGIN      
+        1 gtgagagagt gagcgagaca gaaagagaga gaagtgcacc agcgagccgg ggcaggaaga
+       61 ggaggtttcg ccaccggagc ggcccggcga cgcgctgaca gcttcccctg cccttcccgt
+      121 cggtcgggcc gccagccgcc gcagccctcg gcctgcacgc agccaccggc cccgctcccg
+      181 gagcccagcg ccgccgaggc cgcagccgcc cggccagtaa ggcggcgccg ccgcccggcc
+      241 accgcgcgcc ctgcgcttcc ctccgcccgc gctgcggcca tggcgcggcg ctgactggcc
+      301 tggcccggcc ccgccgcgct cccgctcgcc ccgacccgca ctcgggcccg cccgggctcc
+      361 ggcctgccgc cgcctcttcc ttctccagcc ggcaggcccg cgccgcttag gagggagagc
+      421 ccacccgcgc caggaggccg aacgcggact cgccacccgg cttcagaatg gcagaagatg
+      481 atccatattt gggaaggcct gaacaaatgt ttcatttgga tccttctttg actcatacaa
+      541 tatttaatcc agaagtattt caaccacaga tggcactgcc aacagcagat ggcccatacc
+      601 ttcaaatatt agagcaacct aaacagagag gatttcgttt ccgttatgta tgtgaaggcc
+      661 catcccatgg tggactacct ggtgcctcta gtgaaaagaa caagaagtct taccctcagg
+      721 tcaaaatctg caactatgtg ggaccagcaa aggttattgt tcagttggtc acaaatggaa
+      781 aaaatatcca cctgcatgcc cacagcctgg tgggaaaaca ctgtgaggat gggatctgca
+      841 ctgtaactgc tggacccaag gacatggtgg tcggcttcgc aaacctgggt atacttcatg
+      901 tgacaaagaa aaaagtattt gaaacactgg aagcacgaat gacagaggcg tgtataaggg
+      961 gctataatcc tggactcttg gtgcaccctg accttgccta tttgcaagca gaaggtggag
+     1021 gggaccggca gctgggagat cgggaaaaag agctaatccg ccaagcagct ctgcagcaga
+     1081 ccaaggagat ggacctcagc gtggtgcggc tcatgtttac agcttttctt ccggatagca
+     1141 ctggcagctt cacaaggcgc ctggaacccg tggtatcaga cgccatctat gacagtaaag
+     1201 cccccaatgc atccaacttg aaaattgtaa gaatggacag gacagctgga tgtgtgactg
+     1261 gaggggagga aatttatctt ctttgtgaca aagttcagaa agatgacatc cagattcgat
+     1321 tttatgaaga ggaagaaaat ggtggagtct gggaaggatt tggagatttt tcccccacag
+     1381 atgttcatag acaatttgcc attgtcttca aaactccaaa gtataaagat attaatatta
+     1441 caaaaccagc ctctgtgttt gtccagcttc ggaggaaatc tgacttggaa actagtgaac
+     1501 caaaaccttt cctctactat cctgaaatca aagataaaga agaagtgcag aggaaacgtc
+     1561 agaagctcat gcccaatttt tcggatagtt tcggcggtgg tagtggtgct ggagctggag
+     1621 gcggaggcat gtttggtagt ggcggtggag gagggggcac tggaagtaca ggtccagggt
+     1681 atagcttccc acactatgga tttcctactt atggtgggat tactttccat cctggaacta
+     1741 ctaaatctaa tgctgggatg aagcatggaa ccatggacac tgaatctaaa aaggaccctg
+     1801 aaggttgtga caaaagtgat gacaaaaaca ctgtaaacct ctttgggaaa gttattgaaa
+     1861 ccacagagca agatcaggag cccagcgagg ccaccgttgg gaatggtgag gtcactctaa
+     1921 cgtatgcaac aggaacaaaa gaagagagtg ctggagttca ggataacctc tttctagaga
+     1981 aggctatgca gcttgcaaag aggcatgcca atgccctttt cgactacgcg gtgacaggag
+     2041 acgtgaagat gctgctggcc gtccagcgcc atctcactgc tgtgcaggat gagaatgggg
+     2101 acagtgtctt acacttagca atcatccacc ttcattctca acttgtgagg gatctactag
+     2161 aagtcacatc tggtttgatt tctgatgaca ttatcaacat gagaaatgat ctgtaccaga
+     2221 cgcccttgca cttggcagtg atcactaagc aggaagatgt ggtggaggat ttgctgaggg
+     2281 ctggggccga cctgagcctt ctggaccgct tgggtaactc tgttttgcac ctagctgcca
+     2341 aagaaggaca tgataaagtt ctcagtatct tactcaagca caaaaaggca gcactacttc
+     2401 ttgaccaccc caacggggac ggtctgaatg ccattcatct agccatgatg agcaatagcc
+     2461 tgccatgttt gctgctgctg gtggccgctg gggctgacgt caatgctcag gagcagaagt
+     2521 ccgggcgcac agcactgcac ctggctgtgg agcacgacaa catctcattg gcaggctgcc
+     2581 tgctcctgga gggtgatgcc catgtggaca gtactaccta cgatggaacc acacccctgc
+     2641 atatagcagc tgggagaggg tccaccaggc tggcagctct tctcaaagca gcaggagcag
+     2701 atcccctggt ggagaacttt gagcctctct atgacctgga tgactcttgg gaaaatgcag
+     2761 gagaggatga aggagttgtg cctggaacca cgcctctaga tatggccacc agctggcagg
+     2821 tatttgacat attaaatggg aaaccatatg agccagagtt tacatctgat gatttactag
+     2881 cacaaggaga catgaaacag ctggctgaag atgtgaagct gcagctgtat aagttactag
+     2941 aaattcctga tccagacaaa aactgggcta ctctggcgca gaaattaggt ctggggatac
+     3001 ttaataatgc cttccggctg agtcctgctc cttccaaaac acttatggac aactatgagg
+     3061 tctctggggg tacagtcaga gagctggtgg aggccctgag acaaatgggc tacaccgaag
+     3121 caattgaagt gatccaggca gcctccagcc cagtgaagac cacctctcag gcccactcgc
+     3181 tgcctctctc gcctgcctcc acaaggcagc aaatagacga gctccgagac agtgacagtg
+     3241 tctgcgacag cggcgtggag acatccttcc gcaaactcag ctttaccgag tctctgacca
+     3301 gtggtgcctc actgctaact ctcaacaaaa tgccccatga ttatgggcag gaaggacctc
+     3361 tagaaggcaa aatttagcct gctgacaatt tcccacaccg tgtaaaccaa agccctaaaa
+     3421 ttccactgcg ttgtccacaa gacagaagct gaagtgcatc caaaggtgct cagagagccg
+     3481 gcccgcctga atcattctcg atttaactcg agaccttttc aacttggctt cctttcttgg
+     3541 ttcataaatg aattttagtt tggttcactt acagatagta tctagcaatc acaacactgg
+     3601 ctgagcggat gcatctgggg atgaggttgc ttactaagct ttgccagctg ctgctggatc
+     3661 acagctgctt tctgttgtca ttgctgttgt ccctctgcta cgttcctatt gtcattaaag
+     3721 gtatcacggt cgccacctgg cattccttct gaccacagca tcattttgca ttcaaattaa
+     3781 gggttaagaa aagagatatt ttaaaatgag agtcacttga tgtgccattt taaaaaaaaa
+     3841 ggcatattgc tttttctaat gtggttattt ctctgatttg caaaaaaaaa aaaaaaaaaa
+     3901 atacttgtca atatttaaac atggttacaa tcattgctga aaatggtatt ttcccccttt
+     3961 tctgcatttt gctattgtaa atatgttttt tagatcaaat actttaaagg aaaaaatgtt
+     4021 ggatttataa atgctatttt ttattttact tttataataa aaggaaaagc aaattgatga
+     4081 cctcaaaaaa aaa
+//
+

@@ -1,0 +1,262 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9475,        254]
+NotebookOptionsPosition[      8286,        224]
+NotebookOutlinePosition[      8645,        240]
+CellTagsIndexPosition[      8602,        237]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Mathematica for Bioinformatics", "Title",
+ CellChangeTimes->{{3.716505231034802*^9, 3.7165052399525843`*^9}, {
+  3.7189700660987*^9, 3.718970066321953*^9}, {3.719671162174827*^9, 
+  3.719671169138997*^9}, {3.719918559461687*^9, 3.719918616051854*^9}, {
+  3.719918720054628*^9, 3.719918725308221*^9}, {3.7199190461734447`*^9, 
+  3.719919048693425*^9}},ExpressionUUID->"3a988fe8-1614-4f32-84e4-\
+daef00b5786d"],
+
+Cell[TextData[{
+ StyleBox["by George I. Mias, PhD\n",
+  FontColor->RGBColor[
+   0.1573052567330434, 0.15793087663080796`, 0.4541237506675822]],
+ Cell[BoxData[
+  TemplateBox[{"\"http://georgemias.org\"","http://georgemias.org"},
+   "HyperlinkURL"]], "Output",
+  CellChangeTimes->{3.719919204810491*^9, 3.719919290636554*^9},
+  FontFamily->"Source Code Pro",
+  FontSize->18,ExpressionUUID->"78ec0cb8-5fe4-4907-a707-0a0b47876ddd"]
+}], "Text",
+ CellChangeTimes->{{3.7199190500652037`*^9, 3.719919115146494*^9}, 
+   3.7199191833934107`*^9, {3.7199192683634*^9, 3.719919303306136*^9}, 
+   3.719919352773055*^9},
+ FontSize->24,
+ FontWeight->"Bold",ExpressionUUID->"4fd4abf0-9e21-48c2-8650-10073f3d322b"],
+
+Cell[CellGroupData[{
+
+Cell["Information", "Section",
+ CellChangeTimes->{{3.7226044584602118`*^9, 
+  3.722604461159953*^9}},ExpressionUUID->"a5e33253-a08e-4c05-afd4-\
+ed7d6f22be95"],
+
+Cell["\<\
+The notebooks and data files  in this directory are provided as reference to \
+accompany the manuscript Mathematica for Bioinformatics. The notebooks \
+constitute of all commands in the manuscript, and also act as an early draft \
+of the manuscript prior to its submission of publication. As such, the text \
+is not complete, and does not contain references that may be found in the \
+finalized manuscript. Below you will fine an index of the notebooks that when \
+clicked should open the corresponding notebook in the Wolfram Language. 
+
+In the event that you notice any typographical errors and code \
+improvements/requests, please e-mail the author at gmiaslab@gmail.com. While \
+I may not respond to all e-mails individually, I do read and take into \
+advisement all considerations suggested.\
+\>", "Text",
+ CellChangeTimes->{{3.722604449281196*^9, 
+  3.722604701327794*^9}},ExpressionUUID->"4623111f-33d2-489b-8985-\
+c555953e2f4b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Notebook Index", "Section",
+ CellChangeTimes->{{3.722604465795135*^9, 
+  3.722604468303841*^9}},ExpressionUUID->"46b63983-4633-4778-9c68-\
+ba82ac512839"],
+
+Cell[BoxData[{
+ RowBox[{"SetDirectory", "[", 
+  RowBox[{"NotebookDirectory", "[", "]"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"FileNames", "[", "]"}]}], "Input",
+ CellChangeTimes->{{3.719919789102203*^9, 3.7199198350626173`*^9}, {
+   3.719920095921667*^9, 3.71992011967941*^9}, 3.719920222923787*^9, {
+   3.720929569876083*^9, 
+   3.720929599208972*^9}},ExpressionUUID->"941516e7-e3f7-4e28-8a7e-\
+bea7a1ea4527"],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  RowBox[{"NotebookDirectory", "[", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.720921677726604*^9, 
+  3.720921689298407*^9}},ExpressionUUID->"0f1df44e-5e13-42d7-b50b-\
+75d4550672d1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"Hyperlink", "[", 
+     RowBox[{"#", ",", "#"}], "]"}], "&"}], "/@", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<MmaBioinfo_Ch1_Intro.nb\>\"", ",", 
+     "\"\<MmaBioinfo_Ch2_Mathematica.nb\>\"", ",", 
+     "\"\<MmaBioinfo_Ch3_Statistics.nb\>\"", ",", 
+     "\"\<MmaBioinfo_Ch4_Databases.nb\>\"", ",", 
+     "\"\<MmaBioinfo_Ch5_Sequences.nb\>\"", ",", 
+     "\"\<MmaBioinfo_Ch6_RNA.nb\>\"", ",", 
+     "\"\<MmaBioinfo_Ch7_Protein.nb\>\"", ",", 
+     "\"\<MmaBioinfo_Ch8_Metabolites.nb\>\"", ",", 
+     "\"\<MmaBioinfo_Ch9_MachineLearning.nb\>\"", ",", 
+     "\"\<MmaBioinfo_Ch10_Networks.nb\>\"", ",", 
+     "\"\<MmaBioinfo_Ch11_TimeSeries.nb\>\"", ",", 
+     "\"\<MmaBioinfo_Ch12_BioinfoDevelopment.nb\>\""}], "}"}]}], "//", 
+  "TableForm"}]], "Input",
+ CellChangeTimes->{{3.719920038104233*^9, 3.719920055148584*^9}, {
+  3.719920154043919*^9, 3.719920241712845*^9}, {3.719921604224908*^9, 
+  3.719921606067678*^9}, {3.719921661377264*^9, 3.719921661564769*^9}, {
+  3.719921694857658*^9, 3.7199217081513557`*^9}, {3.720446218903509*^9, 
+  3.720446231909052*^9}, {3.7204462677610607`*^9, 3.720446292065591*^9}, {
+  3.720929545825923*^9, 3.720929554937377*^9}, {3.722177718052683*^9, 
+  3.7221777182049303`*^9}, {3.7222856929954233`*^9, 
+  3.72228569392554*^9}},ExpressionUUID->"3641b399-5e6f-467e-bcbc-\
+8558001419cd"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {
+      TemplateBox[{
+       "\"MmaBioinfo_Ch1_Intro.nb\"",{"MmaBioinfo_Ch1_Intro.nb", None},
+        "MmaBioinfo_Ch1_Intro.nb"},
+       "HyperlinkDefault"]},
+     {
+      TemplateBox[{
+       "\"MmaBioinfo_Ch2_Mathematica.nb\"",{
+        "MmaBioinfo_Ch2_Mathematica.nb", None},
+        "MmaBioinfo_Ch2_Mathematica.nb"},
+       "HyperlinkDefault"]},
+     {
+      TemplateBox[{
+       "\"MmaBioinfo_Ch3_Statistics.nb\"",{
+        "MmaBioinfo_Ch3_Statistics.nb", None},"MmaBioinfo_Ch3_Statistics.nb"},
+       
+       "HyperlinkDefault"]},
+     {
+      TemplateBox[{
+       "\"MmaBioinfo_Ch4_Databases.nb\"",{
+        "MmaBioinfo_Ch4_Databases.nb", None},"MmaBioinfo_Ch4_Databases.nb"},
+       "HyperlinkDefault"]},
+     {
+      TemplateBox[{
+       "\"MmaBioinfo_Ch5_Sequences.nb\"",{
+        "MmaBioinfo_Ch5_Sequences.nb", None},"MmaBioinfo_Ch5_Sequences.nb"},
+       "HyperlinkDefault"]},
+     {
+      TemplateBox[{
+       "\"MmaBioinfo_Ch6_RNA.nb\"",{"MmaBioinfo_Ch6_RNA.nb", None},
+        "MmaBioinfo_Ch6_RNA.nb"},
+       "HyperlinkDefault"]},
+     {
+      TemplateBox[{
+       "\"MmaBioinfo_Ch7_Protein.nb\"",{"MmaBioinfo_Ch7_Protein.nb", None},
+        "MmaBioinfo_Ch7_Protein.nb"},
+       "HyperlinkDefault"]},
+     {
+      TemplateBox[{
+       "\"MmaBioinfo_Ch8_Metabolites.nb\"",{
+        "MmaBioinfo_Ch8_Metabolites.nb", None},
+        "MmaBioinfo_Ch8_Metabolites.nb"},
+       "HyperlinkDefault"]},
+     {
+      TemplateBox[{
+       "\"MmaBioinfo_Ch9_MachineLearning.nb\"",{
+        "MmaBioinfo_Ch9_MachineLearning.nb", None},
+        "MmaBioinfo_Ch9_MachineLearning.nb"},
+       "HyperlinkDefault"]},
+     {
+      TemplateBox[{
+       "\"MmaBioinfo_Ch10_Networks.nb\"",{
+        "MmaBioinfo_Ch10_Networks.nb", None},"MmaBioinfo_Ch10_Networks.nb"},
+       "HyperlinkDefault"]},
+     {
+      TemplateBox[{
+       "\"MmaBioinfo_Ch11_TimeSeries.nb\"",{
+        "MmaBioinfo_Ch11_TimeSeries.nb", None},
+        "MmaBioinfo_Ch11_TimeSeries.nb"},
+       "HyperlinkDefault"]},
+     {
+      TemplateBox[{
+       "\"MmaBioinfo_Ch12_BioinfoDevelopment.nb\"",{
+        "MmaBioinfo_Ch12_BioinfoDevelopment.nb", None},
+        "MmaBioinfo_Ch12_BioinfoDevelopment.nb"},
+       "HyperlinkDefault"]}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}],
+   Column],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{{3.719920159443104*^9, 3.7199202048707027`*^9}, 
+   3.719921606571397*^9, 3.719921662089538*^9, {3.719921697960128*^9, 
+   3.719921708679914*^9}, 3.7204462324435987`*^9, {3.7204462688412933`*^9, 
+   3.720446292912423*^9}, 3.720550461607156*^9, 3.720929485782419*^9, {
+   3.7209295469686337`*^9, 3.720929555609441*^9}, 3.7221777191141157`*^9, 
+   3.722285694992565*^9},ExpressionUUID->"26687719-f5ae-4d18-8af4-\
+f2b2783edd20"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{402, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 414, 6, 98, "Title",ExpressionUUID->"3a988fe8-1614-4f32-84e4-daef00b5786d"],
+Cell[997, 30, 696, 15, 71, "Text",ExpressionUUID->"4fd4abf0-9e21-48c2-8650-10073f3d322b"],
+Cell[CellGroupData[{
+Cell[1718, 49, 158, 3, 67, "Section",ExpressionUUID->"a5e33253-a08e-4c05-afd4-ed7d6f22be95"],
+Cell[1879, 54, 946, 16, 219, "Text",ExpressionUUID->"4623111f-33d2-489b-8985-c555953e2f4b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2862, 75, 159, 3, 67, "Section",ExpressionUUID->"46b63983-4633-4778-9c68-ba82ac512839"],
+Cell[3024, 80, 414, 8, 52, "Input",ExpressionUUID->"941516e7-e3f7-4e28-8a7e-bea7a1ea4527"],
+Cell[3441, 90, 228, 5, 30, "Input",ExpressionUUID->"0f1df44e-5e13-42d7-b50b-75d4550672d1"],
+Cell[CellGroupData[{
+Cell[3694, 99, 1372, 29, 136, "Input",ExpressionUUID->"3641b399-5e6f-467e-bcbc-8558001419cd"],
+Cell[5069, 130, 3177, 89, 279, "Output",ExpressionUUID->"26687719-f5ae-4d18-8af4-f2b2783edd20"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
