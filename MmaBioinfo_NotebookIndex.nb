@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      9615,        258]
-NotebookOptionsPosition[      8424,        228]
-NotebookOutlinePosition[      8783,        244]
-CellTagsIndexPosition[      8740,        241]
+NotebookDataLength[      9745,        261]
+NotebookOptionsPosition[      8554,        231]
+NotebookOutlinePosition[      8913,        247]
+CellTagsIndexPosition[      8870,        244]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -88,7 +88,8 @@ Cell[BoxData[{
  CellChangeTimes->{{3.719919789102203*^9, 3.7199198350626173`*^9}, {
    3.719920095921667*^9, 3.71992011967941*^9}, 3.719920222923787*^9, {
    3.720929569876083*^9, 3.720929599208972*^9}, {3.723203212903955*^9, 
-   3.7232032192202587`*^9}},ExpressionUUID->"941516e7-e3f7-4e28-8a7e-\
+   3.7232032192202587`*^9}, 
+   3.730038517379287*^9},ExpressionUUID->"941516e7-e3f7-4e28-8a7e-\
 bea7a1ea4527"],
 
 Cell[BoxData[
@@ -108,7 +109,7 @@ Cell[BoxData[
      RowBox[{"#", ",", "#"}], "]"}], "&"}], "/@", 
    RowBox[{"{", 
     RowBox[{
-    "\"\<MmaBioinfo_Ch1_Intro.nb\>\"", ",", 
+    "\"\<MmaBioinfo_Ch1_Prolog.nb\>\"", ",", 
      "\"\<MmaBioinfo_Ch2_Mathematica.nb\>\"", ",", 
      "\"\<MmaBioinfo_Ch3_Statistics.nb\>\"", ",", 
      "\"\<MmaBioinfo_Ch4_Databases.nb\>\"", ",", 
@@ -127,8 +128,9 @@ Cell[BoxData[
   3.719921694857658*^9, 3.7199217081513557`*^9}, {3.720446218903509*^9, 
   3.720446231909052*^9}, {3.7204462677610607`*^9, 3.720446292065591*^9}, {
   3.720929545825923*^9, 3.720929554937377*^9}, {3.722177718052683*^9, 
-  3.7221777182049303`*^9}, {3.7222856929954233`*^9, 
-  3.72228569392554*^9}},ExpressionUUID->"3641b399-5e6f-467e-bcbc-\
+  3.7221777182049303`*^9}, {3.7222856929954233`*^9, 3.72228569392554*^9}, {
+  3.730038545357566*^9, 
+  3.73003854646874*^9}},ExpressionUUID->"3641b399-5e6f-467e-bcbc-\
 8558001419cd"],
 
 Cell[BoxData[
@@ -136,8 +138,8 @@ Cell[BoxData[
   TagBox[GridBox[{
      {
       TemplateBox[{
-       "\"MmaBioinfo_Ch1_Intro.nb\"",{"MmaBioinfo_Ch1_Intro.nb", None},
-        "MmaBioinfo_Ch1_Intro.nb"},
+       "\"MmaBioinfo_Ch1_Prolog.nb\"",{"MmaBioinfo_Ch1_Prolog.nb", None},
+        "MmaBioinfo_Ch1_Prolog.nb"},
        "HyperlinkDefault"]},
      {
       TemplateBox[{
@@ -219,9 +221,10 @@ Cell[BoxData[
    3.719921708679914*^9}, 3.7204462324435987`*^9, {3.7204462688412933`*^9, 
    3.720446292912423*^9}, 3.720550461607156*^9, 3.720929485782419*^9, {
    3.7209295469686337`*^9, 3.720929555609441*^9}, 3.7221777191141157`*^9, 
-   3.722285694992565*^9, {3.723203197359573*^9, 
-   3.723203226256404*^9}},ExpressionUUID->"24d25aa4-de86-4ea8-9cc4-\
-ded2a9710815"]
+   3.722285694992565*^9, {3.723203197359573*^9, 3.723203226256404*^9}, {
+   3.730038523378748*^9, 
+   3.7300385497556543`*^9}},ExpressionUUID->"5e4e5241-4f47-4f4f-ae5c-\
+e0350afebf2f"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -252,11 +255,11 @@ Cell[1879, 54, 946, 16, 219, "Text",ExpressionUUID->"4623111f-33d2-489b-8985-c55
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[2862, 75, 159, 3, 67, "Section",ExpressionUUID->"46b63983-4633-4778-9c68-ba82ac512839"],
-Cell[3024, 80, 502, 11, 52, "Input",ExpressionUUID->"941516e7-e3f7-4e28-8a7e-bea7a1ea4527"],
-Cell[3529, 93, 228, 5, 30, "Input",ExpressionUUID->"0f1df44e-5e13-42d7-b50b-75d4550672d1"],
+Cell[3024, 80, 528, 12, 52, "Input",ExpressionUUID->"941516e7-e3f7-4e28-8a7e-bea7a1ea4527"],
+Cell[3555, 94, 228, 5, 30, "Input",ExpressionUUID->"0f1df44e-5e13-42d7-b50b-75d4550672d1"],
 Cell[CellGroupData[{
-Cell[3782, 102, 1372, 29, 136, "Input",ExpressionUUID->"3641b399-5e6f-467e-bcbc-8558001419cd"],
-Cell[5157, 133, 3227, 90, 324, "Output",ExpressionUUID->"24d25aa4-de86-4ea8-9cc4-ded2a9710815"]
+Cell[3808, 103, 1421, 30, 136, "Input",ExpressionUUID->"3641b399-5e6f-467e-bcbc-8558001419cd"],
+Cell[5232, 135, 3282, 91, 324, "Output",ExpressionUUID->"5e4e5241-4f47-4f4f-ae5c-e0350afebf2f"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

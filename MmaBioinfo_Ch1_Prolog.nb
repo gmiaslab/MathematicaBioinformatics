@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    260718,       5004]
-NotebookOptionsPosition[    255968,       4916]
-NotebookOutlinePosition[    256409,       4935]
-CellTagsIndexPosition[    256366,       4932]
+NotebookDataLength[    229466,       4488]
+NotebookOptionsPosition[    224716,       4400]
+NotebookOutlinePosition[    225157,       4419]
+CellTagsIndexPosition[    225114,       4416]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -207,7 +207,8 @@ Cell[BoxData[
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -254,7 +255,8 @@ world's most productive programming language."]], TraditionalForm]],
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -293,16 +295,16 @@ ${desc5}.", "count" -> "5"}, {
            "input" -> "*MC.%7E-_*GivenName-"}, {}]}]}]}, Typeset`initdone$$ = 
    True, Typeset`queryinfo$$ = {
    "success" -> "true", "error" -> "false", "numpods" -> "2", "datatypes" -> 
-    "", "timedout" -> "", "timedoutpods" -> "", "timing" -> "0.595", 
-    "parsetiming" -> "0.326", "parsetimedout" -> "false", "recalculate" -> "",
-     "id" -> "MSPa385819ce9d7d2f3iacg700003d3a8hd7gh6h7573", "host" -> 
-    "http://www4b.wolframalpha.com", "server" -> "10", "related" -> 
+    "", "timedout" -> "", "timedoutpods" -> "", "timing" -> "0.55", 
+    "parsetiming" -> "0.307", "parsetimedout" -> "false", "recalculate" -> "",
+     "id" -> "MSPa37601dii9aahd6ida72h00001264ffc163adgaig", "host" -> 
+    "http://www4b.wolframalpha.com", "server" -> "23", "related" -> 
     "http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
-MSPa385919ce9d7d2f3iacg7000014997773g164acaa&redisFailed=true&s=10", 
-    "version" -> "2.6"}, Typeset`sessioninfo$$ = {
+MSPa37611dii9aahd6ida72h000033eii42ad2g67bc65181386928986290122", "version" -> 
+    "2.6"}, Typeset`sessioninfo$$ = {
    "TimeZone" -> -4., 
-    "Date" -> {2017, 10, 30, 11, 17, 1.474505`6.92122123845642}, "Line" -> 2, 
-    "SessionID" -> 15844825937962556989}, Typeset`showpods$$ = {1, 2}, 
+    "Date" -> {2018, 3, 13, 19, 40, 32.022323`8.258027814245228}, "Line" -> 1,
+     "SessionID" -> 15920898660014334325}, Typeset`showpods$$ = {1, 2}, 
    Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
    Typeset`newq$$ = "Wolfram Language"}, 
    DynamicBox[ToBoxes[
@@ -328,8 +330,8 @@ MSPa385919ce9d7d2f3iacg7000014997773g164acaa&redisFailed=true&s=10",
   Editable->False,
   SelectWithContents->True]], "Print", "WolframAlphaFullOutput",
  CellChangeTimes->{
-  3.718365421552465*^9},ExpressionUUID->"bb56fb74-7db5-4a24-be67-\
-1368fe262859"]
+  3.729973232182111*^9},ExpressionUUID->"81c46f6f-2579-4841-a385-\
+0ed9d3e197c4"]
 }, Open  ]],
 
 Cell["Type = in an input cell:", "Item",
@@ -398,15 +400,16 @@ We can get information regarding DNA bases using Wolfram|Alpha :\
 
 Cell[CellGroupData[{
 
-Cell["dna bases structure", "WolframAlphaLong",
+Cell["dna bases structure diagram", "WolframAlphaLong",
  CellChangeTimes->{{3.717856512742256*^9, 3.717856534564598*^9}, {
-  3.718566700809659*^9, 
-  3.7185667026870823`*^9}},ExpressionUUID->"3973a80d-a0be-4d62-91f4-\
+  3.718566700809659*^9, 3.7185667026870823`*^9}, {3.729973244833226*^9, 
+  3.729973246414892*^9}},ExpressionUUID->"3973a80d-a0be-4d62-91f4-\
 eeff513b2c44"],
 
 Cell[BoxData[
  NamespaceBox["WolframAlphaQueryResults",
-  DynamicModuleBox[{Typeset`q$$ = "dna bases structure", Typeset`opts$$ = {
+  DynamicModuleBox[{Typeset`q$$ = "dna bases structure diagram", 
+   Typeset`opts$$ = {
    AppearanceElements -> {
      "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
       "Sources"}, Asynchronous -> All, 
@@ -420,6 +423,10 @@ Cell[BoxData[
      "Input", "position" -> "100", "error" -> "false", "numsubpods" -> "1"}, {
     
      XMLElement["subpod", {"title" -> ""}, {
+       XMLElement[
+       "minput", {}, {
+        "EntityClass[\"Chemical\", \"DNABases\"][EntityProperty[\"Chemical\", \
+\"ColorStructureDiagram\"]]"}], 
        XMLElement["cell", {"compressed" -> False, "string" -> True}, {
          Cell[
           BoxData[
@@ -485,42 +492,41 @@ Cell[BoxData[
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
-       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}]}], 
+       "dataformats", {}, {
+        "plaintext,minput,computabledata,formatteddata"}]}]}], 
    Typeset`pod2$$ = XMLElement[
-   "pod", {"title" -> "Results", "scanner" -> "Data", "id" -> "Result", 
-     "position" -> "200", "error" -> "false", "numsubpods" -> "1"}, {
+   "pod", {"title" -> "Result", "scanner" -> "Data", "id" -> "Result", 
+     "position" -> "200", "error" -> "false", "numsubpods" -> "1", "primary" -> 
+     "true"}, {
      XMLElement["subpod", {"title" -> ""}, {
-       XMLElement[
-       "minput", {}, {
-        "Dataset[EntityValue[EntityClass[\"Chemical\", \"DNABases\"], \
-EntityProperty[\"Chemical\", \"ColorStructureDiagram\"], \
-\"EntityAssociation\"]]"}], 
        XMLElement["cell", {"compressed" -> True, "string" -> False}, {
          Cell[
           BoxData[
            FormBox[
-            StyleBox[
-             TagBox[
-              GridBox[{{
+            TagBox[
+             GridBox[{{
+                StyleBox[
                  TagBox[
-                  PaneBox[
-                   TagBox[
+                  GridBox[{{
+                    TagBox[
+                    PaneBox[
+                    TagBox[
                     TagBox["\"adenine\"", 
                     $CellContext`TagBoxWrapper[
                     "Entity" -> {ChemicalData, "Adenine"}]], Identity], 
-                   BaseStyle -> {{
-                    BaselinePosition -> Baseline, FontColor -> 
-                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    BaseStyle -> {{
+                    BaselinePosition -> 1, FontColor -> GrayLevel[0.3]}, 
+                    LineSpacing -> {0.9, 0, 1.5}, 
                     LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
-                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
-                  $CellContext`TagBoxWrapper["Label"]], 
-                 ItemBox[
-                  PaneBox[
-                   GraphicsBox[{
+                    TextAlignment -> Left}, BaselinePosition -> 1], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    PaneBox[
+                    GraphicsBox[{
                     CapForm["Round"], Null, {{
                     RGBColor[0.291989, 0.437977, 0.888609], 
                     InsetBox[
@@ -543,9 +549,8 @@ EntityProperty[\"Chemical\", \"ColorStructureDiagram\"], \
                     RGBColor[0.291989, 0.437977, 0.888609], 
                     InsetBox[
                     FormBox[
-                    StyleBox[
-                    "\"N\"", FontSize -> Scaled[0.08150247797647808], 
-                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
+                    StyleBox["\"N\"", FontSize -> Scaled[0.08150247797647808],
+                     FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
                     ScriptMinSize -> 8, FontFamily -> "Bitstream Vera Sans", 
                     StripOnInput -> False], TraditionalForm], {
                     286.6, -165.5}]}, {
@@ -725,27 +730,31 @@ EntityProperty[\"Chemical\", \"ColorStructureDiagram\"], \
                     LineBox[{{373.21, -15.5}, {329.905, 9.5}}], 
                     RGBColor[0.4, 0.4, 0.4], 
                     LineBox[{{329.905, 9.5}, {286.6, 34.5}}]}}}, Null}, {
-                    ImageSize -> 121, PlotRangeClipping -> False, 
-                    ImagePadding -> 2, ImageSize -> 110.42609038951471`, 
+                    GridLines -> Dynamic[
+                    Map[{{#, 
+                    GrayLevel[0.7]}}& , 
+                    MousePosition[{"Graphics", Graphics}, None]]], 
+                    Method -> {"GridLinesInFront" -> True}, ImageSize -> 121, 
+                    PlotRangeClipping -> False, ImagePadding -> 2, ImageSize -> 
+                    110.42609038951471`, 
                     PlotRange -> {{176.75116101689161`, 
                     535.9757}, {-193.68041088861622`, 186.63530816646218`}}}],
-                    ImageSizeAction -> "ShrinkToFit", ImageSize -> {330.}], 
-                  StripOnInput -> False]}, {
-                 TagBox[
-                  PaneBox[
-                   TagBox[
+                     ImageSizeAction -> "ShrinkToFit", 
+                    ImageSize -> {{440.}, Automatic}]}, {
+                    TagBox[
+                    PaneBox[
+                    TagBox[
                     TagBox["\"guanine\"", 
                     $CellContext`TagBoxWrapper[
                     "Entity" -> {ChemicalData, "Guanine"}]], Identity], 
-                   BaseStyle -> {{
-                    BaselinePosition -> Baseline, FontColor -> 
-                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    BaseStyle -> {{
+                    BaselinePosition -> 1, FontColor -> GrayLevel[0.3]}, 
+                    LineSpacing -> {0.9, 0, 1.5}, 
                     LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
-                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
-                  $CellContext`TagBoxWrapper["Label"]], 
-                 ItemBox[
-                  PaneBox[
-                   GraphicsBox[{
+                    TextAlignment -> Left}, BaselinePosition -> 1], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    PaneBox[
+                    GraphicsBox[{
                     CapForm["Round"], Null, {{
                     RGBColor[0.291989, 0.437977, 0.888609], 
                     InsetBox[
@@ -865,7 +874,6 @@ EntityProperty[\"Chemical\", \"ColorStructureDiagram\"], \
                     82.55}}]}}, {{
                     AbsoluteThickness[0.55], 
                     RGBColor[0.291989, 0.437977, 0.888609], 
-                    
                     LineBox[{{127.51660469450536`, 54.54459683202723}, {
                     140.335, 61.94499999999999}}], 
                     RGBColor[
@@ -1005,27 +1013,31 @@ EntityProperty[\"Chemical\", \"ColorStructureDiagram\"], \
                     
                     LineBox[{{176.295, -123.77}, {
                     176.29679393941748`, -138.5700001943067}}]}}}, Null}, {
-                    ImageSize -> 144, PlotRangeClipping -> False, 
-                    ImagePadding -> 2, ImageSize -> 131.32764000000003`, 
+                    GridLines -> Dynamic[
+                    Map[{{#, 
+                    GrayLevel[0.7]}}& , 
+                    MousePosition[{"Graphics", Graphics}, None]]], 
+                    Method -> {"GridLinesInFront" -> True}, ImageSize -> 144, 
+                    PlotRangeClipping -> False, ImagePadding -> 2, ImageSize -> 
+                    131.32764000000003`, 
                     PlotRange -> {{-177.6294, 
                     267.53999999999996`}, {-195.01999999999998`, 
                     187.51999999999998`}}}], ImageSizeAction -> "ShrinkToFit",
-                    ImageSize -> {330.}], StripOnInput -> False]}, {
-                 TagBox[
-                  PaneBox[
-                   TagBox[
+                     ImageSize -> {{440.}, Automatic}]}, {
+                    TagBox[
+                    PaneBox[
+                    TagBox[
                     TagBox["\"thymine\"", 
                     $CellContext`TagBoxWrapper[
                     "Entity" -> {ChemicalData, "Thymine"}]], Identity], 
-                   BaseStyle -> {{
-                    BaselinePosition -> Baseline, FontColor -> 
-                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    BaseStyle -> {{
+                    BaselinePosition -> 1, FontColor -> GrayLevel[0.3]}, 
+                    LineSpacing -> {0.9, 0, 1.5}, 
                     LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
-                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
-                  $CellContext`TagBoxWrapper["Label"]], 
-                 ItemBox[
-                  PaneBox[
-                   GraphicsBox[{
+                    TextAlignment -> Left}, BaselinePosition -> 1], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    PaneBox[
+                    GraphicsBox[{
                     CapForm["Round"], Null, {{
                     RGBColor[0.800498, 0.201504, 0.192061], 
                     InsetBox[
@@ -1183,28 +1195,31 @@ EntityProperty[\"Chemical\", \"ColorStructureDiagram\"], \
                      106.}}], 
                     RGBColor[0.4, 0.4, 0.4], 
                     LineBox[{{503.10999999999996`, 106.}, {546.41, 131.}}]}}},
-                     Null}, {
-                    ImageSize -> 129, PlotRangeClipping -> False, 
-                    ImagePadding -> 2, ImageSize -> 117.27122833879568`, 
+                     Null}, {GridLines -> Dynamic[
+                    Map[{{#, 
+                    GrayLevel[0.7]}}& , 
+                    MousePosition[{"Graphics", Graphics}, None]]], 
+                    Method -> {"GridLinesInFront" -> True}, ImageSize -> 129, 
+                    PlotRangeClipping -> False, ImagePadding -> 2, ImageSize -> 
+                    117.27122833879568`, 
                     PlotRange -> {{176.53980793522697`, 
                     565.1781536518184}, {-159.18041088861622`, 138.86}}}], 
-                   ImageSizeAction -> "ShrinkToFit", ImageSize -> {330.}], 
-                  StripOnInput -> False]}, {
-                 TagBox[
-                  PaneBox[
-                   TagBox[
+                    ImageSizeAction -> "ShrinkToFit", 
+                    ImageSize -> {{440.}, Automatic}]}, {
+                    TagBox[
+                    PaneBox[
+                    TagBox[
                     TagBox["\"cytosine\"", 
                     $CellContext`TagBoxWrapper[
                     "Entity" -> {ChemicalData, "Cytosine"}]], Identity], 
-                   BaseStyle -> {{
-                    BaselinePosition -> Baseline, FontColor -> 
-                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    BaseStyle -> {{
+                    BaselinePosition -> 1, FontColor -> GrayLevel[0.3]}, 
+                    LineSpacing -> {0.9, 0, 1.5}, 
                     LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
-                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
-                  $CellContext`TagBoxWrapper["Label"]], 
-                 ItemBox[
-                  PaneBox[
-                   GraphicsBox[{
+                    TextAlignment -> Left}, BaselinePosition -> 1], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    PaneBox[
+                    GraphicsBox[{
                     CapForm["Round"], Null, {{
                     RGBColor[0.291989, 0.437977, 0.888609], 
                     InsetBox[
@@ -1281,7 +1296,6 @@ EntityProperty[\"Chemical\", \"ColorStructureDiagram\"], \
                     LineBox[{{71.35, -2.8400000000000034`}, {
                     71.35, -17.615000000000002`}}], 
                     RGBColor[0.4, 0.4, 0.4], 
-                    
                     LineBox[{{71.35, -17.615000000000002`}, {
                     71.35, -58.84}}]}}, {{
                     AbsoluteThickness[0.55], 
@@ -1300,6 +1314,7 @@ EntityProperty[\"Chemical\", \"ColorStructureDiagram\"], \
                     RGBColor[0.4, 0.4, 0.4], 
                     LineBox[{{71.35, -58.84}, {35.66, -79.525}}], 
                     RGBColor[0.291989, 0.437977, 0.888609], 
+                    
                     LineBox[{{35.66, -79.525}, {
                     22.85430365637879, -86.94685006634364}}]}}, {{
                     AbsoluteThickness[0.55], 
@@ -1375,24 +1390,34 @@ EntityProperty[\"Chemical\", \"ColorStructureDiagram\"], \
                     0.4666666666666667], 
                     
                     LineBox[{{35.695, 162.085}, {48.51339530549464, 
-                    169.48540316797278`}}]}}}, Null}, {
-                    ImageSize -> 90, PlotRangeClipping -> False, ImagePadding -> 
-                    2, ImageSize -> 81.879912, 
+                    169.48540316797278`}}]}}}, Null}, {GridLines -> Dynamic[
+                    Map[{{#, 
+                    GrayLevel[0.7]}}& , 
+                    MousePosition[{"Graphics", Graphics}, None]]], 
+                    Method -> {"GridLinesInFront" -> True}, ImageSize -> 90, 
+                    PlotRangeClipping -> False, ImagePadding -> 2, ImageSize -> 
+                    81.879912, 
                     PlotRange -> {{-96.22, 163.}, {-212.71, 205.21}}}], 
-                   ImageSizeAction -> "ShrinkToFit", ImageSize -> {330.}], 
-                  StripOnInput -> False]}}, 
-               GridBoxAlignment -> {
-                "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
-               AutoDelete -> False, 
-               GridBoxBackground -> {"Columns" -> {None, None}}, 
-               GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
-               GridBoxItemSize -> {
-                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-               GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, 
-               FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic, 
-               AllowScriptLevelChange -> False], "Grid"], 
-             LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
-             False], TraditionalForm]], "Output", {
+                    ImageSizeAction -> "ShrinkToFit", 
+                    ImageSize -> {{440.}, Automatic}]}}, 
+                   GridBoxAlignment -> {
+                    "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
+                   AutoDelete -> False, 
+                   GridBoxBackground -> {"Columns" -> {None, None}}, 
+                   GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                   GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                   GridBoxSpacings -> {
+                    "Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, FrameStyle -> 
+                   GrayLevel[0.84], BaselinePosition -> Automatic, 
+                   AllowScriptLevelChange -> False], "Grid"], 
+                 LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+                 False]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+              DefaultBaseStyle -> "Column", 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+             "Column"], TraditionalForm]], "Output", {
           Background -> None, 
            GraphicsBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
@@ -1408,13 +1433,29 @@ EntityProperty[\"Chemical\", \"ColorStructureDiagram\"], \
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
-       XMLElement[
-       "dataformats", {}, {"minput,computabledata,formatteddata"}]}]}], 
+       XMLElement["dataformats", {}, {"computabledata,formatteddata"}]}]}], 
    Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
    True, False, {False}, True}, Typeset`asyncpods$$ = {}, Typeset`nonpods$$ = {
+    XMLElement["assumptions", {"count" -> "1"}, {
+      XMLElement[
+      "assumption", {
+       "type" -> "Clash", "word" -> "structure diagram", "template" -> 
+        "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+        "2"}, {
+        XMLElement[
+        "value", {
+         "name" -> "ChemicalProperty", "desc" -> 
+          " referring to chemical compounds", "input" -> 
+          "*C.structure+diagram-_*ChemicalProperty-"}, {}], 
+        XMLElement[
+        "value", {
+         "name" -> "ChemicalPropertyClass", "desc" -> 
+          " referring to chemical compounds", "input" -> 
+          "*C.structure+diagram-_*ChemicalPropertyClass-"}, {}]}]}], 
     XMLElement["sources", {"count" -> "1"}, {
       XMLElement[
       "source", {
@@ -1423,18 +1464,18 @@ EntityProperty[\"Chemical\", \"ColorStructureDiagram\"], \
 ChemicalDataSourceInformationNotes.html", "text" -> "Chemical data"}, {}]}]}, 
    Typeset`initdone$$ = True, Typeset`queryinfo$$ = {
    "success" -> "true", "error" -> "false", "numpods" -> "2", "datatypes" -> 
-    "Chemical", "timedout" -> "", "timedoutpods" -> "", "timing" -> "2.644", 
-    "parsetiming" -> "0.32", "parsetimedout" -> "false", "recalculate" -> "", 
-    "id" -> "MSPa32719hc4733i44e5b6h000031fdb6ae06gefeg5", "host" -> 
-    "http://www4c.wolframalpha.com", "server" -> "31", "related" -> 
-    "http://www4c.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
-MSPa32819hc4733i44e5b6h0000126e87527e11hab6&redisFailed=true&s=31", "version" -> 
+    "Chemical", "timedout" -> "", "timedoutpods" -> "", "timing" -> "2.125", 
+    "parsetiming" -> "0.389", "parsetimedout" -> "false", "recalculate" -> "",
+     "id" -> "MSPa36131f64i6d0099fbdii00004075f32i8efge629", "host" -> 
+    "http://www4b.wolframalpha.com", "server" -> "48", "related" -> 
+    "http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa36141f64i6d0099fbdii0000228b568gcg66i8b01636597433810948718", "version" -> 
     "2.6"}, Typeset`sessioninfo$$ = {
    "TimeZone" -> -4., 
-    "Date" -> {2017, 11, 1, 19, 11, 46.010482`8.4154317595161}, "Line" -> 10, 
-    "SessionID" -> 15846090020804961077}, Typeset`showpods$$ = {1, 2}, 
+    "Date" -> {2018, 3, 13, 19, 40, 49.239065`8.444884773320055}, "Line" -> 3,
+     "SessionID" -> 15920898660014334325}, Typeset`showpods$$ = {1, 2}, 
    Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
-   Typeset`newq$$ = "dna bases structure"}, 
+   Typeset`newq$$ = "dna bases structure diagram"}, 
    DynamicBox[ToBoxes[
      AlphaIntegration`FormatAlphaResults[
       Dynamic[{
@@ -1443,7 +1484,7 @@ MSPa32819hc4733i44e5b6h0000126e87527e11hab6&redisFailed=true&s=31", "version" ->
         Typeset`opts$$, Typeset`nonpods$$, Typeset`queryinfo$$, 
         Typeset`sessioninfo$$, Typeset`showpods$$, Typeset`failedpods$$, 
         Typeset`newq$$}]], StandardForm],
-    ImageSizeCache->{738., {342., 348.}},
+    ImageSizeCache->{738., {370., 376.}},
     TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
    DynamicModuleValues:>{},
    Initialization:>If[
@@ -1458,8 +1499,8 @@ MSPa32819hc4733i44e5b6h0000126e87527e11hab6&redisFailed=true&s=31", "version" ->
   Editable->False,
   SelectWithContents->True]], "Print", "WolframAlphaFullOutput",
  CellChangeTimes->{
-  3.7185667060734787`*^9},ExpressionUUID->"b9778d6e-52a1-4778-b149-\
-5b07ab86a59f"]
+  3.729973249303585*^9},ExpressionUUID->"114a6bb5-9be5-40d5-862c-\
+a29f30c7ca3b"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1483,7 +1524,7 @@ Cell[BoxData[
    AppearanceElements -> {
      "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
       "Sources"}, Asynchronous -> All, 
-    TimeConstraint -> {30, Automatic, Automatic, Automatic}, 
+    TimeConstraint -> {20, Automatic, Automatic, Automatic}, 
     Method -> {
      "Formats" -> {"cell", "minput", "msound", "dataformats"}, "Server" -> 
       "http://api.wolframalpha.com/v1/"}}, Typeset`elements$$ = {
@@ -1545,28 +1586,21 @@ Cell[BoxData[
             TraditionalForm]], "Output", {
           Background -> None, 
            GraphicsBoxOptions -> {
-            DefaultBaseStyle -> {
-              FontFamily -> "Times", 
-               "Graphics", $CellContext`GraphicsBoxOptionsDefaultAxesStyle -> 
-               Directive[
-                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
-                 FontOpacity -> 1, 
-                 "GraphicsAxes"], \
-$CellContext`GraphicsBoxOptionsDefaultTicksStyle -> 
-               Directive[
-                FontFamily -> "Times", FontSize -> 10, 
-                 "GraphicsTicks"], \
-$CellContext`GraphicsBoxOptionsDefaultFrameStyle -> Directive[
-                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
-                 FontOpacity -> 1, 
-                 "GraphicsFrame"], \
-$CellContext`GraphicsBoxOptionsDefaultFrameTicksStyle -> 
-               Directive[
-                FontFamily -> "Times", FontSize -> 10, 
-                 "GraphicsFrameTicks"]}}, 
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -1646,28 +1680,21 @@ $CellContext`GraphicsBoxOptionsDefaultFrameTicksStyle ->
              False], TraditionalForm]], "Output", {
           Background -> None, 
            GraphicsBoxOptions -> {
-            DefaultBaseStyle -> {
-              FontFamily -> "Times", 
-               "Graphics", $CellContext`GraphicsBoxOptionsDefaultAxesStyle -> 
-               Directive[
-                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
-                 FontOpacity -> 1, 
-                 "GraphicsAxes"], \
-$CellContext`GraphicsBoxOptionsDefaultTicksStyle -> 
-               Directive[
-                FontFamily -> "Times", FontSize -> 10, 
-                 "GraphicsTicks"], \
-$CellContext`GraphicsBoxOptionsDefaultFrameStyle -> Directive[
-                 GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
-                 FontOpacity -> 1, 
-                 "GraphicsFrame"], \
-$CellContext`GraphicsBoxOptionsDefaultFrameTicksStyle -> 
-               Directive[
-                FontFamily -> "Times", FontSize -> 10, 
-                 "GraphicsFrameTicks"]}}, 
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -1708,17 +1735,16 @@ GenomeSequenceDataSourceInformationNotes.html", "text" ->
 SpeciesDataSourceInformationNotes.html", "text" -> "Species data"}, {}]}]}, 
    Typeset`initdone$$ = True, Typeset`queryinfo$$ = {
    "success" -> "true", "error" -> "false", "numpods" -> "2", "datatypes" -> 
-    "Species", "timedout" -> "", "timedoutpods" -> "", "timing" -> 
-    "1.3940000000000001", "parsetiming" -> "0.167", "parsetimedout" -> 
-    "false", "recalculate" -> "", "id" -> 
-    "MSPa55221id29ec14hce473d00004hh6853938ha7dbc", "host" -> 
-    "http://www5b.wolframalpha.com", "server" -> "15", "related" -> 
-    "http://www5b.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
-MSPa55231id29ec14hce473d000016c7g27e8329ge216283307890331292175", "version" -> 
+    "Species", "timedout" -> "", "timedoutpods" -> "", "timing" -> "0.781", 
+    "parsetiming" -> "0.212", "parsetimedout" -> "false", "recalculate" -> "",
+     "id" -> "MSPa4581g38g1c8heg406hc000039ci63chf8a27gb8", "host" -> 
+    "http://www4b.wolframalpha.com", "server" -> "43", "related" -> 
+    "http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa4591g38g1c8heg406hc000023a5ccbi0b8i80bg2376725253226070752", "version" -> 
     "2.6"}, Typeset`sessioninfo$$ = {
    "TimeZone" -> -4., 
-    "Date" -> {2017, 9, 14, 15, 58, 54.834096`8.49162566247704}, "Line" -> 1, 
-    "SessionID" -> 32906586695319243500}, Typeset`showpods$$ = {1, 2}, 
+    "Date" -> {2018, 3, 13, 19, 40, 54.618328`8.489913375627022}, "Line" -> 4,
+     "SessionID" -> 15920898660014334325}, Typeset`showpods$$ = {1, 2}, 
    Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
    Typeset`newq$$ = "Genome Human"}, 
    DynamicBox[ToBoxes[
@@ -1744,8 +1770,8 @@ MSPa55231id29ec14hce473d000016c7g27e8329ge216283307890331292175", "version" ->
   Editable->False,
   SelectWithContents->True]], "Print", "WolframAlphaFullOutput",
  CellChangeTimes->{
-  3.714407934921132*^9},ExpressionUUID->"81ec0cfc-85d9-4314-827f-\
-a024ae13f3d7"]
+  3.729973254682303*^9},ExpressionUUID->"00d772a4-2790-44e4-8ef2-\
+4b89016c0f81"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1788,14 +1814,14 @@ ${desc2}.", "count" -> "2"}, {
       "http://www.wolframalpha.com/examples/MouseGenome-content.html"}, {}]}, 
    Typeset`initdone$$ = True, Typeset`queryinfo$$ = {
    "success" -> "false", "error" -> "false", "numpods" -> "0", "datatypes" -> 
-    "", "timedout" -> "", "timedoutpods" -> "", "timing" -> "1.334", 
-    "parsetiming" -> "0.123", "parsetimedout" -> "false", "recalculate" -> "",
-     "id" -> "MSPa12051f67c144ci6if9ae00003b1a2g22b21hca6c", "host" -> 
-    "http://www4f.wolframalpha.com", "server" -> "4", "related" -> "", 
+    "", "timedout" -> "", "timedoutpods" -> "", "timing" -> "0.523", 
+    "parsetiming" -> "0.12", "parsetimedout" -> "false", "recalculate" -> "", 
+    "id" -> "MSPa211712c44b16588298d700001i2h7dhg7hd030gf", "host" -> 
+    "http://www4b.wolframalpha.com", "server" -> "33", "related" -> "", 
     "version" -> "2.6"}, Typeset`sessioninfo$$ = {
    "TimeZone" -> -4., 
-    "Date" -> {2017, 10, 24, 16, 52, 20.002792`8.053665602647143}, "Line" -> 
-    8, "SessionID" -> 15841486459320861701}, Typeset`showpods$$ = {}, 
+    "Date" -> {2018, 3, 13, 19, 40, 59.275121`8.525447422256406}, "Line" -> 5,
+     "SessionID" -> 15920898660014334325}, Typeset`showpods$$ = {}, 
    Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
    Typeset`newq$$ = "Mouse Genome"}, 
    DynamicBox[ToBoxes[
@@ -1820,8 +1846,8 @@ ${desc2}.", "count" -> "2"}, {
   Editable->False,
   SelectWithContents->True]], "Print", "WolframAlphaFullOutput",
  CellChangeTimes->{
-  3.717867140083638*^9},ExpressionUUID->"3dfad7b3-78e8-4e63-b127-\
-4058e3da3e86"]
+  3.729973259351985*^9},ExpressionUUID->"963938c8-8e72-4deb-a35d-\
+68f9e8db810a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1877,7 +1903,8 @@ Cell[BoxData[
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -1965,7 +1992,8 @@ Cell[BoxData[
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -1976,822 +2004,8 @@ Cell[BoxData[
         "name" -> "More", "input" -> 
          "ChemicalNamesFormulas:ChemicalData__More"}, {}]}]}], 
    Typeset`pod3$$ = XMLElement[
-   "pod", {"title" -> "Structure diagram", "scanner" -> "Data", "id" -> 
-     "StructureDiagramPod:ChemicalData", "position" -> "300", "error" -> 
-     "false", "numsubpods" -> "1"}, {
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement[
-       "minput", {}, {
-        "Entity[\"Chemical\", \"Uracil\"][EntityProperty[\"Chemical\", \
-\"ColorStructureDiagram\"]]"}], 
-       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
-         Cell[
-          BoxData[
-           FormBox[
-            PaneBox[
-             GraphicsBox[{
-               CapForm["Round"], Null, {{
-                 RGBColor[0.800498, 0.201504, 0.192061], 
-                 InsetBox[
-                  FormBox[
-                   StyleBox[
-                   "\"O\"", FontSize -> Scaled[0.07674516697308796], 
-                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
-                    ScriptMinSize -> 8, FontFamily -> "Bitstream Vera Sans", 
-                    StripOnInput -> False], TraditionalForm], {200., -69.}]}, {
-                 RGBColor[0.800498, 0.201504, 0.192061], 
-                 InsetBox[
-                  FormBox[
-                   StyleBox[
-                   "\"O\"", FontSize -> Scaled[0.07674516697308796], 
-                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
-                    ScriptMinSize -> 8, FontFamily -> "Bitstream Vera Sans", 
-                    StripOnInput -> False], TraditionalForm], {
-                  546.41, -69.}]}, {
-                 RGBColor[0.291989, 0.437977, 0.888609], 
-                 InsetBox[
-                  FormBox[
-                   StyleBox[
-                   "\"N\"", FontSize -> Scaled[0.07674516697308796], 
-                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
-                    ScriptMinSize -> 8, FontFamily -> "Bitstream Vera Sans", 
-                    StripOnInput -> False], TraditionalForm], {
-                  373.21, -69.}]}, {
-                 RGBColor[0.291989, 0.437977, 0.888609], 
-                 InsetBox[
-                  FormBox[
-                   StyleBox[
-                   "\"N\"", FontSize -> Scaled[0.07674516697308796], 
-                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
-                    ScriptMinSize -> 8, FontFamily -> "Bitstream Vera Sans", 
-                    StripOnInput -> False], TraditionalForm], {286.6, 81.}]}, {
-                 RGBColor[
-                 0.43333333333333335`, 0.4666666666666667, 
-                  0.4666666666666667], 
-                 InsetBox[
-                  FormBox[
-                   StyleBox[
-                   "\"H\"", FontSize -> Scaled[0.07674516697308796], 
-                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
-                    ScriptMinSize -> 8, FontFamily -> "Bitstream Vera Sans", 
-                    StripOnInput -> False], TraditionalForm], {
-                  373.21, -131.}]}, {
-                 RGBColor[
-                 0.43333333333333335`, 0.4666666666666667, 
-                  0.4666666666666667], 
-                 InsetBox[
-                  FormBox[
-                   StyleBox[
-                   "\"H\"", FontSize -> Scaled[0.07674516697308796], 
-                    FontWeight -> Plain, ScriptSizeMultipliers -> 0.8, 
-                    ScriptMinSize -> 8, FontFamily -> "Bitstream Vera Sans", 
-                    StripOnInput -> False], TraditionalForm], {232.91, 
-                  112.00000000000001`}]}}, {{{
-                  AbsoluteThickness[0.55], 
-                  RGBColor[0.800498, 0.201504, 0.192061], 
-                  
-                  LineBox[{{{219.43813879537697`, -52.00363810890477}, {
-                   240.8, -39.67}}, {{
-                   224.43813879537697`, -60.66363810890476}, {
-                   245.8, -48.33}}}], 
-                  RGBColor[0.4, 0.4, 0.4], 
-                  
-                  LineBox[{{{240.8, -39.67}, {
-                   284.1, -14.669999999999998`}}, {{245.8, -48.33}, {
-                   289.1, -23.330000000000002`}}}]}}, {{
-                  AbsoluteThickness[0.55], 
-                  RGBColor[0.800498, 0.201504, 0.192061], 
-                  
-                  LineBox[{{{521.971861204623, -60.66363810890476}, {
-                   500.60999999999996`, -48.33}}, {{
-                   526.971861204623, -52.00363810890477}, {
-                   505.60999999999996`, -39.67}}}], 
-                  RGBColor[0.4, 0.4, 0.4], 
-                  
-                  LineBox[{{{500.60999999999996`, -48.33}, {
-                   457.30999999999995`, -23.330000000000002`}}, {{
-                   505.60999999999996`, -39.67}, {
-                   462.30999999999995`, -14.669999999999998`}}}]}}, {{
-                  AbsoluteThickness[0.55], 
-                  RGBColor[0.291989, 0.437977, 0.888609], 
-                  
-                  LineBox[{{351.4298635427649, -56.426315403974655`}, {
-                   329.905, -44.}}], 
-                  RGBColor[0.4, 0.4, 0.4], 
-                  LineBox[{{329.905, -44.}, {286.6, -19.}}]}}, {{
-                  AbsoluteThickness[0.55], 
-                  RGBColor[0.291989, 0.437977, 0.888609], 
-                  
-                  LineBox[{{394.989507772564, -56.42522645925864}, {
-                   416.51, -44.}}], 
-                  RGBColor[0.4, 0.4, 0.4], 
-                  LineBox[{{416.51, -44.}, {459.80999999999995`, -19.}}]}}, {{
-                 
-                  AbsoluteThickness[0.55], 
-                  RGBColor[0.291989, 0.437977, 0.888609], 
-                  LineBox[{{373.21, -94.14899378536062}, {373.21, -100.}}], 
-                  RGBColor[
-                  0.43333333333333335`, 0.4666666666666667, 
-                   0.4666666666666667], 
-                  
-                  LineBox[{{373.21, -100.}, {
-                   373.21, -105.85100621463938`}}]}}, {{
-                  AbsoluteThickness[0.55], 
-                  RGBColor[0.291989, 0.437977, 0.888609], 
-                  LineBox[{{286.6, 55.85100621463938}, {286.6, 31.}}], 
-                  RGBColor[0.4, 0.4, 0.4], 
-                  LineBox[{{286.6, 31.}, {286.6, -19.}}]}}, {{
-                  AbsoluteThickness[0.55], 
-                  RGBColor[0.291989, 0.437977, 0.888609], 
-                  
-                  LineBox[{{308.3801364572351, 93.57368459602536}, {329.905, 
-                   106.}}], 
-                  RGBColor[0.4, 0.4, 0.4], 
-                  LineBox[{{329.905, 106.}, {373.21, 131.}}]}}, {{
-                  AbsoluteThickness[0.55], 
-                  RGBColor[0.291989, 0.437977, 0.888609], 
-                  
-                  LineBox[{{264.82069506378826`, 93.57512484676036}, {259.755,
-                    96.5}}], 
-                  RGBColor[
-                  0.43333333333333335`, 0.4666666666666667, 
-                   0.4666666666666667], 
-                  
-                  LineBox[{{259.755, 96.5}, {254.68930493621173`, 
-                   99.42487515323964}}]}}, {{
-                  AbsoluteThickness[0.55], 
-                  RGBColor[0.4, 0.4, 0.4], 
-                  
-                  LineBox[{{459.80999999999995`, -19.}, {459.80999999999995`, 
-                   31.}}], 
-                  RGBColor[0.4, 0.4, 0.4], 
-                  
-                  LineBox[{{459.80999999999995`, 31.}, {459.80999999999995`, 
-                   81.}}]}}, {{
-                  AbsoluteThickness[0.55], 
-                  RGBColor[0.4, 0.4, 0.4], 
-                  
-                  LineBox[{{{375.71, 135.32999999999998`}, {419.01, 
-                   110.33}}, {{370.71, 126.67}, {414.01, 101.67}}}], 
-                  RGBColor[0.4, 0.4, 0.4], 
-                  
-                  LineBox[{{{419.01, 110.33}, {462.30999999999995`, 
-                   85.33}}, {{414.01, 101.67}, {457.30999999999995`, 
-                   76.67}}}]}}}, Null}, {
-              ImageSize -> 129, PlotRangeClipping -> False, ImagePadding -> 2,
-                ImageSize -> 117.27122833879568`, 
-               PlotRange -> {{176.53980793522697`, 
-                565.1781536518184}, {-159.18041088861622`, 138.86}}}], 
-             ImageSizeAction -> "ShrinkToFit", ImageSize -> {440.}], 
-            TraditionalForm]], "Output", {
-          Background -> None, 
-           GraphicsBoxOptions -> {
-            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
-             DefaultAxesStyle -> Directive[
-               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
-               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
-               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
-               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
-             Directive[
-              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
-             DefaultTicksStyle -> 
-             Directive[
-              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
-           Graphics3DBoxOptions -> {
-            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
-          RenderingOptions -> {"3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]
-         }], 
-       XMLElement[
-       "dataformats", {}, {"minput,computabledata,formatteddata"}]}], 
-     XMLElement["states", {"count" -> "4"}, {
-       XMLElement[
-       "statelist", {
-        "count" -> "3", "value" -> "Skeletal structure", "delimiters" -> ""}, {
-         XMLElement[
-         "state", {
-          "name" -> "Skeletal structure", "input" -> 
-           "StructureDiagramPod:ChemicalData__Skeletal structure"}, {}], 
-         XMLElement[
-         "state", {
-          "name" -> "All atoms", "input" -> 
-           "StructureDiagramPod:ChemicalData__All atoms"}, {}], 
-         XMLElement[
-         "state", {
-          "name" -> "Lewis structure", "input" -> 
-           "StructureDiagramPod:ChemicalData__Lewis structure"}, {}]}], 
-       XMLElement[
-       "state", {
-        "name" -> "Show bond information", "input" -> 
-         "StructureDiagramPod:ChemicalData__Show bond information"}, {}], 
-       XMLElement[
-       "state", {
-        "name" -> "Show graph properties", "input" -> 
-         "StructureDiagramPod:ChemicalData__Show graph properties"}, {}], 
-       XMLElement[
-       "state", {
-        "name" -> "Step\[Hyphen]by\[Hyphen]step", "input" -> 
-         "StructureDiagramPod:ChemicalData__Step\[Hyphen]by\[Hyphen]step", 
-         "stepbystep" -> "true"}, {}]}]}], Typeset`pod4$$ = XMLElement[
-   "pod", {"title" -> "3D structure", "scanner" -> "Data", "id" -> 
-     "3DStructure:ChemicalData", "position" -> "400", "error" -> "false", 
-     "numsubpods" -> "1"}, {
-     XMLElement["subpod", {"title" -> ""}, {
-       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
-         Cell[
-          BoxData[
-           FormBox[
-            PaneBox[
-             GraphicsBox[
-              RasterBox[CompressedData["
-1:eJztvXd0VGX3/v2s9/2t9bxr/f7wq8/XBxWR0HsNECCUoQYIHUINMPTee83Q
-QXrvhCIgXUS6EEARBAUUFURgLKiggiIi0rLf/bnP3GGMARsyCZy91jFtGOeU
-61zXvvbe98nUqnvddv/Pv/71r97/n/6nbsv+5Xr1ajmw3v/oDzHdends361t
-m6rd+rRt37ZX8Vb/r/7Sr9uHuv2ff7nhhhtuuOGGG497lH3iibCop57y1v7f
-/8Q3ePrphCb/fTqh+TP/jW+W7mlf03T/8YT687nhRlqJSk894a3y5JMJdf73
-P9Lov09Ls2f+K62efUbaP/esdEr/nHTVrdvzuqV/zt8x/bO+UH9eN9xIrRGl
-vFRZsVT1qSfF4qnFM+mkjeJJsaM4Si+9MzwvA1/IIEMyviBxYWwZZdALGfyd
-06fzhPrzu+FGagqDp6ee9EcpnlTrSWPFU0vFU0flph6KpQGKI5/iZ0zmMHkx
-SyaZlDWzTNZtSmCbqL8bmCG9L9T74YYbqSGiTN70pCimpJbiqWm6/0pb5Sb0
-HVganimjTFDMTM+WReZmzyaLcmaXpTlzyLJczhavPy/MkU3mZM8qIzNl9IV6
-f9xwI5QBnio9+aS/SgBPsYon8qaeyk3ou7HKS2BpgWIG/KzOk1M25M0tr+bL
-I68Fts26bdTfrcqdU5YovkZmzOgJ9X654UaoIurJJ31VAnqvSRCehmmuBDfN
-Vu5ZkhMs5ZJNiptt+fPK6wXyyd6C+eWNQgXkTd34ys879fev6GtWKLZCvV9u
-uBGKwCuv+tRTSX4EXgS509AAnuYqnpYrN61XnGxVLO0umM9g6O3wgvJukUJy
-vEhhea+osx3T7w/r7/cVym94a062LL5Q758bbjzsqPTkE75aATx5n0lnPPJB
-GTPIeMXTnACe0HTbFU9g5VDhggY7HxYLl48jisrZ4sXkXGA7U7yonCpWxODs
-gOLuFcVVqPfPDTcedlR/6smEhgG/HM3XN8PzMjpTmMzMltXkTusDeNqvGDkS
-XkjeLxoupxU7n5UsLt+WLS2Xy5eV78uVkW9Ll5SvI4vL+RIRiq+ickJfhxac
-kMXNq9x4fCJCdV/dp/9XmmkO1Sbg8ZFD4Yvj663R/GlbgJ/A0weKkzPKTecj
-S8glxdOPDevLreZN5XaDuvJLzWi5WiZSLpcqIRcUb+DqqGrDFbly+EK9n264
-8bAi8oknPGg++iOoQfV94XlTe0Lz4THg6yUo15A7nbB4Khkh3ykn3YiuKtLa
-KzIiTqR7F0mMbSx3KpaT62VLyRX9+wXlrI8jisjWvHniQ72fbrjxsKKCYgqO
-avfcs4ajBmd8QSZlcThqvXLUzgJ55UDhAiY/Oq34+EJ13bfKQz8qbm7UqSnS
-oZ3IzGki40aLtGstor+7rTrwhv79B33dZyWKqWbM72LKjccmohRT9El0Sv+s
-6TeiR2JGtizGl7AcdUT120nwpBj5TrXdFY/iSXOoW7VriLSIFenRRaRPT5HG
-DUSqRYkophI9peWavvYr5bRDhQsmhHo/3XDjYUVZxVRr1X1d0ju9EngTeOcv
-q+4jj8Izf79YETmrfPMN/BNVUe5UqSRStbKI5lLSpqVIx/YiXTuJ1K8ton+X
-CmUNruCqb1T/HSpU0OUpNx6roP+o+/Ppje6jh49eibVG9+UzvvnJ4sXk6zKa
-I8XUldtdOkoiOPI2E+ndQ2TUcJGhgxyu0r9L5QoiFT0iymM3FVPfKqZ2FMjj
-C/U+uuHGw4w2zz6T0D3QMzFRc6mFObIb/5za7uHwQvKJ4uJyeY9ca9tKEsHQ
-oP4iPbuJDBssMm2yg6u+vRztV6m8YqqcwdStAKaW58jhCfU+uuHGw4zYdE97
-wRTzGsafUExtCGAK//y06r7LFcrJDcVM4vgxDobgqF7dHY7ie/Kq2tUdPAUw
-dUO57XyJYv5Q758bboQibF2K2Q20H56fxRS9EhcUHz/VqCaJeOctmzucxNak
-oZNX1Yx2cizwVMEjiZpPXS1dUt4sUMAb6n1zw41QRKt06bz0I6H9wBS13l2a
-T1GX+qhYEfmiZIR8r1rutmq7RDwKvAhyp6gKjt6rXN75WuFuLvWly1FuPObR
-4/nnEsZnzmRmo1bmzmn6Zd8qXMDUev3Fi8lFzY3ok7jpKW1wYzYwxFbRk4Sn
-O/r3y5ElZFs+15tww40hL2RIYE6KuQ76ZqlP0V9EvZc+PvqOqDvdVh5C3yVh
-q7zjn/+if/u5Tk25oq9zPXQ33DARNjpTWMJ81X/MFm7Jn8f0UbxftLCcLV7U
-1HAtrqg/3VZOul22tNF63+vvec2dmLryc+lIOV2siKv93HAjED0zpDdz8PRS
-UPu1uKLfj/4karmXFEM/lCppMAaXMS91sli43NB867bmW5+XKObOebjhRiA6
-PfesHw3IfMdJzadOVqpgPMDDhQuaWY9TqgWZlTqjHLVdX0Pv7bo8uQzurip3
-JSpXfak52NiMGcNCvS9uuJEaouUzz8SPyZzJeH+fFCsit+vX0VyplJk3ZHZj
-Xe7c3pnZMnt5bfj//b8e5oJfypXDzP1eUO6iZ+mC8tmy3Dm8od0TN9xIHdH4
-6ad9rO3ymtFzReR65Qpyp2pl1X1Gz4Ulfz2zwXjwB5XH0HzSvq18F1lCMel6
-f264QdR66ilvnwyq5/I6eo7ZDmq76LkpKei5DqoVp2XNIvsK5pdzikF6Ao33
-F+56f264QRT497/DuifXc21bqZ4rJqtS0HOtVSuOzhxm5q3w3e/UqiHXy0Si
-G13vzw03AtH1+bt6Dq+P+cPvIovL7oJ5f8M9TVUr0teO9/cR3l9gJuQL1/tz
-w42k6Jz+ud/ouR+Vr94NL/QbTFmtuNZ6f9SE0YolXO/PDTdstAzoOeP9RRSV
-27Wqyy+e0mYePvlrWSsGrTg3f15ZUbmSLPG2kDcnvCjT2raRLpUqeUPw8d1w
-I9VFk3RPe4P13C+VK0hitSjj69VSDCV/fcWCBaRGjRrSunVr6dmzpyxfvlz6
-9esnzZo1c30KN9zQqKZ6rmumMJmtum9NlShZ2bqlbBo9WoZ37iRRUVFhyV9f
-pEgRf5UqVcTr9UrXrl1l2bJlMmDAAGnXrp2LKTfcCERERITUrVsXXEjfvn0N
-9/Tq1UtiYmK8yV9bsGDB+PLly0tsbKzB1IsvvihDhgyRHj16uD7Fn4iIsmXD
-SpQu7StdrlxCpWrV/DXr1xfd/HUaNUqoFRPjC/Xnc+PvRbFixX6l51566SWj
-55SLfsM9+fLl85UuXVoaN24snTt3Fp/PJ5MnTzYYDMVnT2thsVSyTBnxVKok
-UdWrS4169aRuo0bSoFkzadKypTRr00ZaduggjVu08IX687rx1yJYz3Xr1u2+
-ei5btmzekiVLSoMGDaSDnveBAwfKrFmzDKZS0opu3A3wVLJ0aT94Kq1cr/wk
-1VUf1NX7U2M99i07dpT23btL5z59pHv//tJDj23PQYPc2l8aDKvnmul9Ej03
-fvx4GTp0qHTX85v8tenSpQtDK9apU0fatm1rtCK81rt3b/SjNwQfP01EMJ5K
-eTxSOTpaaut9qVGLFoaTOuvx66PHfNDIkRKnx3/ExIlm4/uBI0a4ayemsVA9
-5w3Wc3FxcTJ16lSjA3PkyBGW/PVoxeqqWdCK5FErV66U/npfbd68uetT3CNU
-7yUYfipXzuCpTsOGRue11XtYT+WjwaNGychJk+RF5fypCxbIjPh4mblkicxY
-vFgmzJ4tw8aNc49tGorkeg58zJkzR9q3by+FChXyZcmSJT5nzpwJefPmFcWf
-FChQQMLDwwUc1qxZ03garvd374gsW9YDnspUqGD0HvwEntB5vYcMkbhx42T8
-jBkybeFCmaucv3jNGlm2YYO89Morsly3+LVrDcZUD4aFel/c+OORXM+N0/MM
-frJnzy65c+dOwpJizOCpaNGiAl/x79jKli1r/n2o9yM1RokyZRLKVqwolZXb
-yZ/Qe227dDF48r34okxQbpqlnLRo9WpZsWmTrNm2TTbu3i2bEhJk0549smHX
-Llnx6qsyed48956VhgKfAj3XtGlTqab30qxZs6L7kvCkOZcULlxY9HUGS8WL
-Fxe4rVSpUlKGezC6RnkrMjLSn9HtU0oK8qhS6D38PcVTvSZNxKtaoIfy+rCx
-Y43Wm7V0qeGil7dsMTja88478vapU7L/vfdkt36/6+23ZfO+fbLqtdfce1Ya
-CjBVQbVJnjx5DJ6C+Qk8wU1gqUSJEgZH8FI5vVb4NxX1HlypUqWkTX/v19d7
-Qr1PqSEiIiM95atUkerK4fjlTVu1kk69esnAkSNl7PTpRtMtDuDp1b17DZ7O
-fv21XPnpJ/ns0iU5du6cvHnihCS8+668opxVq1atsFDvkxt/LDRXigdLbJpf
-Sa5cuSR//vyGmyyW4CFwBG6ioqIMn0Vrvg2/BW/8Dm9etaIn1PsV6gBTVTTn
-xJNo2KyZ8ct7DRokwydMkCnz58vCVatk5ebNBi87Dx2Sgx9+KNd++UXuiMiP
-N27I6W++kXfOnJGDH30krx8+LGOnTAkL9T658fuBVgvGE/xkfQhyJXjJ4/EY
-LFWtWtXgRu+XJn+qV6+e1K9fn54Ls/Ezv+fvirnHurZi/XO8ifqqqWNbtza+
-xMARI2ScctRs1XzLNm40uRP67g3VekfPnpUfrl2Tm4qpKzdvyseKqRNffGF+
-/8b770v/uLiwUO+XG78fiqUEq/fgJ/BE3kTOBDdRu4KXwFLt2rUNbvAIG6mW
-aaL5AX1KwRu/4+/0OykGH8u8GjwVL1XKTy2qmh6zRtR0NY/q0qcPvrhMmjtX
-Fr78sqzbscPovXdPn5ZTX30l51TvXVGeuqGY+v7OHTmjP5+6eFHe++wz2Xf8
-+GN9j0orkSVLFk8wntB78BN4wncgX4Kb8MzBCFihjgV2WlCvbNlSWmmOQK3K
-bvyOv4Et8Bep+ifU+/kwg94j3aSM3ovoO6LXiL4Icqieqvuo5U5btEiWrFsn
-W994w2Dpx59/FiIxsMFTPyQmiv+HH+ST774zXKXaz639poGAo4L9CPIn9B78
-ZPGEjgMb8JLFEjhqo9cKNSxqWh01T7AbP9OPC7bwEZXbHguusr18JfReVK5y
-ZamtORTc1GvwYBk1ebLxI+YsWyYj9fuZ+j26b4ti6rPvv5efVOclKobusCme
-flaOuqD51KcBTMFTGxMSPKHeRzfuH+RRyf09/AjlFaP3LJ7Il8ATvUv0BFos
-gR96mehhop+Cr2z0DHbp0sVgC+zBV6He1386gntjK+pxwzNvo8egX1yc8ffA
-0kubNsmrCQmydMMG0yOxXDGFd/72yZNyRnHzlXIVvPSlfr2g+o/vzyneTl24
-IEc++cTVfWkg0H05c+b8lV9OzQk/gvyJXnXLT+AJ3qEmbLFE79JgvQfTy0R/
-4CDVNdSL6f3jb2CL1/Lv9P28od7ffyqSevnKlpUqeszoL++g9xh696jnzl+x
-wtSWXtu/X/YeOyYfnD8vL+vPYGvD66/LrsOH5cAHH8i7Z88ajUf+BDeBMzwK
-/b1f8ecJ9X668fuhmPJRj8KTCNZ8+Hv44eRPDVW/3AtP9KTTbzt//nyZNm2a
-6REEX/yeWRGwBa7QgYpNX6j395+I5F4E/eX0lQ8dO9b4EPRG0Bex7cAB49uB
-l++Vg4g1W7bI2u3bzd/2Kdao8x7z+w3mPtIc68Mvv8RH92/ctcsX6v1044+F
-6r4EW4PC54OjqD9ZzYcfQT6E3kuOJzAzVq8b8PSG5gS7du0yfX/MUjGjCGfR
-Nwiu0IGKUb9i1xfqfX6QkaIXMWCA6Teidy9+3TpZt3OnbH/rLVNfwsO7evOm
-2AA/6EH6j/DS6Zs4pLiiHsX25gcf+BesWuUL9X668cdD86gEq/ksR9ETgWeO
-5sPfa968ucmfyI0sntB3YIYZ38WLF0uC5gRv6XWzUfODefPmyfDhw2XYsGHm
-NWCvU6dOBqu8P7VjzdUS6IUP9f7/1UjuRdQJeBH0742aMsXxH1TXmbqT6rp3
-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
-BH4BE+i7gydPmnoUvRSq8/z4GXjovA5eI4+Ck8APPGV1Ic+pA1/4GaxfCHfx
-PJPN+t5z1h02dUf8omrdPpWozqdNDT543oDzR1+mmfWuNMHBhXLX83kaxN/F
-U9MAnjoFZg76BeZ3hhs8mrmDqGlmZoH3KVR1VmCG52DSDE/dITdM7aSNnuuJ
-rztexKJjqmNWOj2dXAOxL4o/qvNnvlCfp4cd2Ur0STCYippqanb0lsPt+H3k
-UrX6fiuNfNdNv9PQ1SJzDzh4wiMdsl7vT5ud49h+nh7fANd7p5njKTX6XPGG
-ev8eRvQcPNg3ae7chMVr1sga5SM8C3hGucu/YvNmX9yUKWE5ChQI69y7t2/S
-vHkJ1KbQc/b53nAcrwdDrMuGLoTvwBc6cU9AN3aZfCnQU/ZjYN7govFwOU94
-SaxRQG2SeyL+AT1leAloQgdPtU1elEnxlFW1HtxksFRupNF14IfeziI1401e
-XbT2UlN3KlbnJdOXRh3XzvDEjtNzrud75hsiq0/rdaE5VKeFDj+BpyZjxF+2
-xcGwUJ+bUETGHA3DHJ6aYo6l5SmLKfzR+kOvS1PNjdrpseq+SDWe5k1t9Xh2
-UBx1WeTwk5mJmuUcTzyKRqMebY66V9Rq2DCsRfv2Yfd7DesDqG70MQMCDtGO
-tucW7toOdymO3gjkXeBrx5HT0nikU0+38wZOP/QVh7t+M4t6xOi00k23S+bw
-ds5MnOKJ3AmvAT2Xp9wI0yNdOHqO8R3AIHN1aMlIzdfoiWCjrgJP4UdQx2XG
-tMsCR6cs19xp4h4nl+b8k0s3GCH+iIbb7nsMHvXIFtHLm6/iBMNTjo/+upkP
-5vxwL6R2G+Nzarnkoug67xQHP2hmuMnMcQT0M/eo6O7fe0K9X2khlLs8E2bP
-jkc/4iGu3rLF+BNwl12/Go9w8bbz0mK8HvcJevyp/41w5g2YRU2alWMW1c7K
-dXNm5aiXpM9V18FTeHvT92BmSyuMNdqOc540v6P4Q6OAReYOmLFjjRM0H7Pi
-cFVM3CXpv9LxIpZo7jTiNUfrce7Jo+sNfbxyp/tFrjJD4x2PYnWS72dyUdXu
-nK/6w25rPpooTcY6us7gaqpzHMEWeg88NR0n/mrdL3pDvT9pLeCuoWPH+ibP
-m+dfGNTjbn2NLlMumzVy6IsGU/Rvgq+mo+2sXOJvZuWq97pgeh1YUyRT4bam
-tg+enHm4OUbXUbNNmt/Rc04ezUw4PkhUp1Omlst1QI+E0S6d35GXPxZZfFxk
-wJq72iR2gvirdr/oC/VxTG2Rp9xoHxoa7ucYm/qUamjOD/0TMcr7cFWTcQFc
-TXSwxdZsoun3eyxz0gcdPNt79JQpPupSzDYuXLfTnAPTE63nof7QO6oDE6W5
-3t/gLmqGfDXaMMBdrKNAn4zx9wq2Ml6E6Y+uON5oPXxC088Zu0voAbDzO/TZ
-cM7J06r3/NJoyuq9vgpwn9/gq9GwU6aOa2fizIxp1HxvqI9bao0CFSZ4itdb
-5XCVHmt6BTm+5KZ1h9yUesNuSoPhdwxndZkrMvY1o/Wkvur86r0vPJY51D8V
-zPQovnyDJ67x4+9V6+6/27OpfESfcgPfHYkdk+hga4KDr9gxTi8zXqD19/DJ
-WUuEeW08B6c/erfRd/CSnd+xPde1B1xRXP6k2zVnzq7/jwHu+8rgrmbfs0aj
-NB5D7pQQFupjlRYivMYCX7G6K/2sNYGHVKrpNqdXSTHm5FhOD+28A6pB9DyS
-b9EPGOrP/ahGgcDMAevMcf3bnk08QPIpw10j7iTpQrBVMGp8oJ+zl6k3Fawy
-TRwd8oqDJ82V8DOc+aDzZn6H94sd9bN4x9+UNpNum/djlqF+QFvClZx/Zx71
-9CPVI/OwAo8oV5khxmOlH4X7JTlWXT2PnVVLz94v0kFz1AZ6X6RHJaLWqrBQ
-f+ZHPfJVmuDzePfHO/NygXkBvZ/hA9YZrNwVd0fqD/pGMod3cDRfqUEmh7rn
-vIGeT/yNOgOvm/7otlOcGbuhL4sMZB5osqNF6PWsP+yO/n9+MlrQ433jseiN
-eNBh1k3Sc0LdD0+V+yT3SHpSWk1MlPFbRHotdvpl6wy6IaWbbPOG+jM/LlEg
-ao7piTbzoknzPN8anVY8Zr0zE1eij6n74vGRQ9HThIdXsf1x4+tGB+YN6I+m
-Z8874bZZK2jxYZEl7+o98w2RPksdv5c5Hs5z/aG39d9ckUodP3R56i8EfbbU
-Muh5QQdy/qjhw0lNRiXKyI0iY1515hGZ8y3X8m1fqD/z4xj0RJdqtiser6FK
-lzOmHwLNZziqwjhT+6X2ZHpk2hwxnp6TJ18yfgZ1XPACJ/VYJDJ9r2LqqGLq
-TZEh60RaTHJ8KXo4nfvnL2DSzZ//QoQVbBnP2rP4RfQCUqc3/RV6b0MLDFst
-MmtvwKcYJqyN4eqBEAbPh4iot9bHTEb2oLV6mNuObMRM3JtGv+PhVe/9neqN
-n5Sf7kijkU6dpM00p64/YafI3IMiw18R6bb4bl80uDKzcYrBqt3OuTz1FyJD
-vlgvPYH0r+AXeVrsM/kptft6Q+7IgOWOT0FtnRp/rX7fuj5FKgjVfH5nznSU
-6X+lR4J8GJ8JjsInN37E6F+k3dQ70n6GM6fdM155aa3IuG0i0/aJDNbvOy9w
-5nioP1IzAXvMmz5KM9wPM9JlruRlrp77Hb1LaAfqgcHe34KDTm+y4/394GIq
-FUSWIh3j0ex2vR56yk3PmebDaMNafb+R+kN+ke5zb8vQl1VvKHZ8Gxwszdiv
-+dRRZwZq0h6RToqptrPvzhswbxoTd0sqtD/hCfV+ptXIGvD+Chvvb7upZ1jv
-j3U552oe23FWwPvTe19EQ9f7C3VkLNDCy3NWeA4Zni25FOsE402g+2r3/04a
-+m6ZtR9ZTyT+XZFF7zhYoocv/rgz8z5+l9Mb23b23V5Oav71ht7wh9eK94R6
-P9NqZCnaxe94fzOTeX8/mTrIi1ucWUXWIagz+IaeuwRvqD+zG//6l/JUgrNm
-zwLTgwSmuB/iD9bu/71ZP66X5k4zNR+er1pj9gFnxnS63iMnJyhnKZ4Gr9f7
-5YK7PUjNJzs+Re1+V1zd9zeCZ7fxvCl61+nJZG2yYO9vlOaxeOp4rXU1xyrX
-+rDrU6SCyBLR3WM8P+pSqv3oN7OYwmOKGXZbminn9FzkrIMweI0zw9P7JZHu
-eo/sslg5Sv/Wds7dGR7yKdUj/gqtj3hCvX9pOYz3V7JfwPtbbXqWqwS8v5i4
-RInTczHnTcenMN5f109cTKWSyF3Gl4D2w7N11t87ltTDSV8gep0+mLYzRNop
-F7Wf48xttA2sx90maP7d6r6a/X5wz+/fDNYOMbXDgPdXNgXvb9EhkdixTt9f
-LdXqof7MbtyNgpWnJjjrjGw19UVnhucb09PEPRF9ETve6Yk2MzzTnNkNu1k8
-NR3P7PYttyb1AMLx/nqaGXvH+3vdWf+l90WpPeim0eSL3w7y/vpfEdYSCfXn
-dsMJnoFZuPr8BPr8TE7V4YRT79XzVG/oLdMPTY5kZw3wzKlHsfF9ktfnezzn
-TP+poG+M2RtmrEoFvL/ooL4/alSdZlvv76pENEybz5d6lKNozSUJ9CaVM2tc
-nnbW6R7wk+nhozcCXDUNzPG0Y/2rSU4tP8Z3S6r1vOB6Eg84shTpbHqUCuL9
-NdrsrO3W43Pj/fGMxgnbRPou1fMx/LI0HnBSomLjvaH+zG78NsKjF3gim2z1
-kxMzC2WeKdHjfGA+60epO+S2NFeNF39EpP9yR3fQx1mh3VE3h3rAkblIpwTW
-1qTPBe+vUqvXpXaXfdK0917pNmytLHr5dVm7dq15/h3PRmnWrJl7DlJx5CjZ
-35szsr/pjWZWzswbmLXOf5Fm4xJNzXHYGqc+gpcR3fOcmyM/4Miav3p8wYga
-UqJsbfPscJ4rxzMbeV4jz5KMj4+XnTt3mucU83wUnvsd6s/sxr0jXZZoj32G
-ALqDNZeYoWLWMXZsoumLHrPZ8Z3ojUaThPozP2qRI0cOb5EiRSQyMlKqVauW
-9Aw8+/zwuXPnmucK8awhMMZzW0P9md24f9DHSX2EejC96madZs2FmcsfvNJ5
-vgQ+O/UROIzZklB/5kcpMmTI4A0PD5cSJUpIVFSUxMTEmOef8lxJnis8ffp0
-2bt3r3kGisVUjjT0zL/HMbIV7+mnPlK83mozo2jW7+t/xcwb8DxNepboraU3
-mnn6iLqrvKH+zI9a8Czx4sWLS6VKlaRu3brmWeD22cc8p2vbtm3m2eE8Bxmc
-8fzhUH9mN+4dWRVT1EfMvIH3Dae3ludzDEuUjjNFlh8z65w7Ncd+V6REzEZf
-qD/zoxYFCxb0FytWTMqXLy+1a9eW2NhYadeuncGPz+eTdevWyYIFC2TAgAFG
-D/Js8FB/ZjfuHfSuUx9hjT/6lnhWOnV8vD+eLwamesc7a53hubuz8g8+8ufP
-Hw+mPB6P1KxZU5o0aSJt2rQxOo9nIPM88Y0bNyZ5f8pj7jlIxcHzCfByqTmy
-RoUzw/ONmeGhD3DJOyKDVpp1742fXqXLKbdG9YAjT5488UWLFpUyZcqk6P0t
-WbJEdu/eneT9tW3b1sVUKo6M+WK9OYyfPtP0LZkZHuOnX5cW4xNl7psiw9c7
-6yLAXdV7fer6Tg84gr2/qlWrSoMGDX7l/c2bN0/2798vw4YNMxgDa6H+zG7c
-O/6Tsazjp1eebJ7j58zwnDfr9zQdnSijX3GeKdtsnLPOLV77v/7977BQf+5H
-KdKnT+8J9v7q16+f5P3hU0ybNs1gatSoUa73l0bC8dPHmZlFs34Ps1UDrkqj
-EYlmHTK4inVf8CmY7Xb99Acf1vurWLFiit7fjh07ZPLkya73l0YC74+1yngO
-gVm/p9s546fTr959vsjSd50ZbrsmakTMGm+oP/OjFnh/ERER9/T+1q9fL4sW
-LTLeHz6F6/2l7sharFtC7jJxZl0lnudhntnW77LReh1miKx4X6T7gsD6PYq1
-yMbbfKH+zI9a/J73t2rVKtm0aZMMHjxYevXqhTZ0fYpUHFnC8dMHS5Eai8xz
-clhTiTWj6w6+La0miaxUTPVdFuil1TyrXOtD7vl8wGG9v9KlSxvvr1GjRkne
-H14f3p/tUeJn5TDXf03F4fjpA83aSqxVxrM9nDWxbpr+9GVHRYasdtbJrDv4
-plTt+rF7Ph9w3M/7I6fC+3vllVeMR9G0aVPTc1GgQAFfqD+3GynHc7ljvKwD
-WLDKDLPuM+sqsSYWfnrrcZdl0Z4rMmXtWekY97q067dCmrUf6Xq5Dzjw/sAU
-3h85FfqPnto6depI5cqVpUqVKlKoUCHBy+B1cBpakS08PNwX6s/vxq8jXbp0
-YblKdpOiFXtI+fqTpJ53rLToONrkx9Tuly1bZnJk6iPoDvyof7t++gONLFmy
-+JSrJHv27JI1a1a8csmdO7fky5cPPjJ4wm8HS3gZeIQlS5Y0vMam3+NxeEK9
-H27cDe53aPkaNWoYbdG2bVuTH/fv39/ojl27dsno0aON9qBuoufXE+rP/KgE
-eAJHdgNXuXLlkrx58ybhCW7iHIElMMS5Klu2rJQrV87wWoUKFcz3ii1vqPfH
-DSdUU/i570VHR5veGDynLl26GAxRFzl06JBMnDhR+vbta35fq1Ytb6g/86MQ
-yfGULVs2yZkzZxKe0Hpwk8WSxRF1LDSh1YXkYGx8r6/xhHq/3DD1kXjOG+eF
-ubhWrVoZzwnfduzYsQZT1PPBFPwVExPjC/VnTuuRMWPGsHvhSc+H4SZ0nsUS
-XASGOEfc+9AUem9L2sjB2Pib/htPqPfvcQ/qI5w/zhlzccH9ZsOHD5eDBw+a
-mVN4Cx9K9aHrp/+NCOApITmeyJ/QenATfgUaD16yWAJH1ITpteA84Q9yD2Tj
-e/qa+Ju+zvVmQxyaD3vR62iKevXqSYsWLZL6zaiJvPnmm2ZtBPIr6viqDd01
-yf5GZM6c2RucP1l+CsYTfepwE3qOmhVY4tyAHfQ5eW+zZs1MH5Pd6L/gb+BN
-8yxvqPfzcQ69TxpMcU/Evw3uNwNTGzZsMLV86vhgCg8j1J85LQccBTfh71k/
-Ar1n8YTW4/5muQnusVgCN9zz0BLUhcl97cbP/J7XKK5crgph4KdzPjmXaPPg
-fjN6Y5YuXWp6Y+Li4pL8dH1tWKg/d1oMm0dZv9z6EeRP5LTwk8UT+RHchLaD
-l7jXgRnw06FDB6Ml0Oh242fODX/nHLrnKLRhe2O4L9JvZv10eqFnz54te/bs
-MX4FORXnr3Dhwt5Qf+a0GHh96L1gPOHvkc9y/NF7wXiiTwl8MP8BD4ElvFf0
-AucC34i8lw1dwTkDW+BK+c0b6v19nCM8PDzJT7f9ZtZPZ42Rw4cPG1/d9dP/
-Xiim4pPXn7if4e+hvcmfrN6DnyyeLDehHehPZwZkxowZMm7cOOMjcV44V3i1
-YIv7nuslhTasn845Te6njxkzRt555x1zDjl3nFfFnXu+/kIoRyXkyZPnV/0R
-HHd0N3183NPIaVPCExxkz8fChQtly5Ytpr+WOge6HJ2OrrD+rOZUfvoCn3ji
-ibBQ7/fjGHrf/JWfzrm0fjozPG+//bbMnz/fYIrz5a4z/OfD6j7rmYMnvKFS
-pUqZfgg0H/ksxx/9jRdh8WT1Ht4r6/6xntLRo0eNJ8u6SvAWa1bQTwaPgT20
-I+8NZpUL/YplX6iPweMU1k9Hz1s/nXMJfuj127dvn+n9s3Nx7dq1c/30Pxj4
-EuAJrw9/D46y/XvWN4ej8MxtDoUfYfMn+Il7G/czMDN16lTjw7766quyfft2
-c68bP368ufdxrvBn4SuwyTw+eOX/gbbXc+xXPPvc+ft/PqiZBPvp1D6S++lr
-1qwx90LugZzzUH/mtBDgKVOmTPH4fPAFuEneJ8ExtxyFZ47mw9/j+KO/uYeB
-EfAEZshr8WJXr15tzsucOXNMP+aIESMMrjhf4A/vnTowtS00Jbjl/4UXApbh
-rogSJXyhPkaPcnCek/vpbPYeCZY4P3AZ91l8De55bp96ygGe9F6F5jLXMfcq
-8tTA9fyr2i7XPL5EMEdx3NEF5E/4RHDRhAkTTA7F+rToP7QDWpDXBOOKeyH/
-L/QGPjz5GRyInwh+8es51zX1MzVR/Db2ev3lo6K8oT5mj1Jw/tEk3EPBC/ji
-WsifP7/5XfDsDvdXO3NgN7AV6n1ITYHW080cO7QXOoz7E/U9vkcTwFHMy5PD
-4vXBKeRRlqPgJdZLIl+Ck+AmvAk037vvvmue+YF2YHYA/w9c8XowBR7Jh229
-ivdEe/D+cCH4hjPbd+smnfUztdF8rXnbtgZbdRo29KlmDAv1MUzLEdD7/uDe
-s2A8We1v5w3Q5eS+3Hu5z7Lxvf7tsa/dB+dO3IPIZ9Bg1IzgeeZ10W7ckziG
-aDFeY70J9AH8wuvBBrXB1157Td5//32zJhlaj69nz541uHr55ZeN9oPDqB+C
-KfSh9dTJxdCPvB+Yhv/wn0w/huJs3IwZMly5b8Dw4dJDObGj6sxW+tpmisOY
-2Fh/jXr1fKE+pmktgvHElhKewBI6xc7ucG+1cztodLvxs/79scVVIHcy3p7N
-ndBx8AV56BtvvGH0GpwSXOOlfmFzKbjEztrwb6ZMmSIvvfSS+bfoPb6Hs7Zu
-3ZrEUWg/fD+LqZkzZ5rv8Qjx1cnHqH/wnnwWfA9q+j31b/NWrJAZ8fEyae5c
-GTN1qgzTf9dXMdlFtX47/Tde5Tn4q17jxr6SpUt7g/c3omzZsIjISF+kxxPv
-qVQpoXK1aglR0dG+clFRvtCcgdBHcjyRR1s8Bc/ucD9Fe4MjsMN9FU3OfDcb
-uQAb33N96L33scNVSrkTeotrGQx99NFH5lofOXKkX3nDp8c2geNq+ybAFDkP
-GARTXPtggfwIXoOPwBPvAYbw+uAw/gae4Cmr/cixwB2Y4zW2p4wNTQh3ga8F
-iqdVmzfLMuW+Rfr6OcuXy7RFi+TFWbNkpOZvg/W9eqr+7IQ2VK4DW42aN/fX
-ionxlSxTJqEkGoVrgutA82z9PdiTBsqBDZo184PDUJ+Xhx3B8wbcW20tEm5K
-PrsDjsCMndvBq+C6Ia9m43t+Z2d4Sie7pz3KgWd6r9xp8eLF8vHHHxtvYfTo
-0X7VY2H8Gz3OYRzfYEzBU8GY4vqHa9By1oNg43twZLEEZi1HUffl3zBDypqA
-yxUntgcan4O/87kGKQdu3rdPXtmzR9bv2iVrlANXaJ62ZP16WbBypcxaskSm
-KG7HKn59+v/pj++h79tBP1Os6sdgPEXrea+tnz2maVPyMfP3lsqFrRWHrTt1
-emxqLnoNeJLzk/V44SbutVwf5M9gCayAG/JoO7dDnhC88Ts7w8NrQ72P/3Tc
-L3eCY3geB88PAAeKKa6tsOB/zxoEwT66zafIeexz3bj+8f7QgfANvAV2wBU4
-YrP8xGtsfdjWtPDV6X+x3AW+wPkS5ajdR47Irrfflq2qK1/du1c26mddt3On
-vLxliyzXvC9+7VqZp9w4Q18/Eb9edehQ/X+11feORP+jV/S6sHgiB2uFtoQL
-VTvCcb31M/UcOPCxwJWdN7D5U/Le6OSzO2AFzOAbcd65n+LTku/azc7w4Afj
-20Y9wrr6XrkTWKDmio/A2jhwiP7su9f70IsMFuF/jlmw72d7kYJrU/gWFlds
-4JXnKCp2/Pr/jre1LXgSruM9wCZ5FZ8FD3G9Yv3zCxfk2p07cvbrr+XA++/L
-TsXWjoMH5TX93JsSEmTD66/L2u3bZaVqw6WKw4WqPWcrLqcuXCgtdR893GuZ
-j9R7CF688pF00f8HGBqkn2cYfYjKzWxxyqUDR4x4pPMBrofk/t69Zg3s7A7n
-mvwZ7OBLoU/Ic20Ni42fuceCNV6vr30kj2Nw7kROlDx3OnHihMzSnESveb9e
-074/8j7wFfeulPQfeICrwCq4gq/omwVffK948ysGPfZ9WZNCOS+e82V7MfD+
-+Hzw5wTlm5NffSUXr1+Xyzdvyk0R+f7nn+XEuXOScPSovH74sGw7cEA2K3eh
-DTeoNly9dau8tGmTLFm3Thrq54tGs3BN6Ods37279FLMk3+NoI6mOd/kefNM
-bjZdN3BIjtYnLs77EE5PSAL9H4ynPzJrAE7AErjhXoy+wKu1fhIb5816SmCP
-f/uo1TlSyp3YX5s7nTx58je5U0qB9uZ96P0jZ+XeZfme48ZX3pdjanFFnkQ+
-BLbYFGd+xYjvXv8PMKv851M96uf82XMXv2aNwcv2t96SQx99JP7Ll+XyrVvy
-0+3bckPx9cV338k7mgOCrZ2HDsmWIG0IRqqqTrV4wnvHJ4SLxmnuNVV5cI7y
-GbwWr/iD45YqX/Oz/u2R1YDKUQkWT/Ry2voj1wh6L6XZHe6b6BF77+S+yb3S
-9pZZTwmMcR3AW5xHPafeUO/vgwibO5F/plR3Ik+xudPEiRN/kzsFh60Hc+zR
-BGhqjhe4IeehL5b35Nhz3Pl/oOG4h+kx9uuWoOfC92c+P/c2zdl83fX/QZ60
-6rXXjDfxquo8MAN+Tnz+uXx17Zr8oPj6WXXhdcXYqS++kDfee0926d93KAbJ
-kepwXVBDC+AJD2PC7NkyMz7eYIdcbN2OHYbfNqqG3BDwQPA/+sfF3fO4pOVQ
-jkrg/mjrT9SeqDkF63rwhHZA03B/s7kv2EG/49Gizdm4jsAW/UsWW7yWf6e6
-yBfq/f27kTx3wtfk2HCtk+e8rtcNuRMe3P1yJ95HN+NpUKfg/kXfEPcpjh31
-J+q78JxqOvM+zGkoFsz2oPZHtZpv6vz5CXNfesn46GtU13Ht4wNuVTzvP35c
-PvnmG7kU4K7byl2Xrl6VfUeOGL8cbw+fgtzJ4mn20qUGq+Rfr+n7HFL9Cwfu
-O3bMcB1aEp6bOGeO90HtR2oJzqv1+IJnDbhfJp/dsXiy90mwgvbAw+V+yvwO
-1xM9M2h7fCdbZ+S14JA8Qe/rfvreQ73vfyWS507kPDZ3wnOjv+HP5E5obvpQ
-uHfB43A6OREzn9Sc0Ix6DO/5Pg8yuvfvH6aaDXz54RfypbXKL5s0hwJfOw8e
-lCOnT8t5xdMPiq3tymn4e17mFfQ84wGSO+G7gyf8QvB03O83XHddue6jL7+U
-NxVf+5XrwNaC1asfyr49rLAaPrimaznKaj47u2P1XjCewArnnzoHdXyuA543
-Ri0SP5e/BXS+eS35F+8dPMPDjBzXV6iPxR8JmztxvLg3BOdO1H6o4/6R3MnW
-1oNzJ7wDtBw12w8++MDUk8Al6+08vD28G2iy0VOm+MAHPoTRhjt3mjwK7kp4
-913pM3SoqT3hldPLhLdOfkW9GDyBRfz5M6oXiUTdzn37rRw9d04OKzbB1fJN
-m3yh2L9/ItAcaBe8CHBk67q2lp9SX7Sd1Ubbo03gKHIoMAU3seYzvTasU8bv
-wJSd34Gv4Do8ZmpcwTM84Cu1c5fNnThOfH5yJ44Hvhn7zP0EnvozuRPH2eZO
-4JLeiFOnThnNCC4fpL77q0EtuufAgb5pCxf66VsiNyIXoj7ViPWaAhyFJ8Hv
-eA34w3+n1nVA7w94ij8pnq7r9vn338sH58/L8U8/lUO6r2t37fKEeh//bthc
-gDVFrO8LJyWfh4OjqEGh7+EoO7sDnsCSrTniFVNDBFP0Ra/QY8qMHL8Pnt/B
-twieMaCmaWcMgrkLbKUm7rLHizo495zkuRP7/FdzJ/jf5k7w/GbNPYJzp9QW
-aMPhEyb4wA59SXAUPYD4EqOUX6kF4+1tUx47euaMfPrDD/KF6sTvrl83HHUl
-MdH8fOriRflQNeAx1YTLN270hHq//k5YzUE9F56g9sE9knNLHgVnWN1HnsD1
-b2sa9tlHtifTbnASfWTkUsz+cn2BMa4NXguubH9Z8hkDtJOdMUiJu5jH4llM
-oTxe5Dz2/hOcO3HPeE+1y9/JnTim8Dj1YHqFHmbu9HeCuSpqUi24z+p5HThy
-pOlnpz9w5auvyvGzZ+XSjRvyi+ZQtxRHt8SJa7p9/fPP8smlS3LywgV5++OP
-07SXHuz7Bt8j4Q/yn+TrIHCto/tsHYPriPsp1xBahw38sM4f9+q33npLjh07
-ZnBFbgGmyKnwBLlu7PyOrVelNB+XmrgrONckd4Kz+dzwNPtHzvNncifWReJ+
-gZ5m37k/oY+pB/M1lLnTX4kGsbEJVvcNoddq9myZv3KlqQUf/PBD+Uaxc0cx
-9OOdO/Lj7dsGU98pzj5Xnjp7+bLhKtWH3lDvx1+JqCeeCMuVPr3JndB29h6J
-tw1/ML+Djudc21yKfj5+tt5E8HqZzOYwZ8Ca6dxfeQYmX/H78CfAGbgLnt9B
-+1nvL3h+J6X5uNTAXb+XO7G+TeB+cd+cJ3nuZHUBnA0v4WngmYKn1JA7/ZmI
-rlXLA6Z6kgfosUAPLtB9AlPbDxyQgydPyknVd58odk5/+634VQee1VzqnG6f
-6M/vnj2bJjkKPFV48n/iG/736aR7JDqOa4NzSU0SjLB2VfPmzeOp88IRwZiy
-vWbcV/EZ8KXwzekHBT98Tw5FTyY6kLlT8ik7awBPBe7nJv+wa86lNL/zV7jr
-rxyXQG4TFvDxyHHMBlbvlzvZewbH7u/kTtSc2LjnDB8+/C/tQ2qImNhYb/cB
-A4yHDk/Rv75ac4At3GuPHkXbGS/io6++Mrg6o5qPr+999pl/Y0JCWKg//5+N
-soqnSk8+6W/1bDoZlzmTzIsoarDBOaVnBjyBD73uzfwO/4a5XMtTcEXy/k3w
-gIcHRqjxwkfM7oAh9Au/xwPmmiPfAEe2B43vmaezfqBdd+73uMuuof8guCug
-w+KTzy/jaduZSzZ0cPK60/Hjx5NyJ+UZ3/3+HzZ3CtYFNndCI6ML0kru9HvR
-unNnDz2yzC/OWrrUzIfg+dGH8ZZqQOUjMGQ8CbZ3zpzxz1m1KizUn/vPRqUn
-n/BV+89T0jn9czIjWxbZlj+vnAovJFtimxjNgX6BR0aMGEHfV1jwv1UuSIAX
-uKZsnxnXOZwCv9j5HfjHzu6An+DNzhvwGl5va1l4hfwOzIFDXvMwuCu4j8jO
-sti1X1NaX8PmluRQ8C5eBPeCv5M7ca+hHmxzJ71veB/0eQ9VtGjfPsw3blw8
-s8HUivHa6Wff8+678qbmnYeVrxRf/m0HDvhC/Vn/bKD1yj3xhK/m//5H+mZ4
-XhblzC57C+YXf7FwuVGxnEjvHrJFz23A506xR5x6hJ2Pgh+oTQX3btq6FDlS
-8JwB+LCbnTfg73ZtfNtji+6kBszfeC26M5i7gmdPg9dNgLvAd3LuQp/dj7sC
-XsOvZpeD1yZP6dm48It9Pi73Fv6ffyd3Wqma6EO9Z6fV3OmPRnu93wwZO9Y7
-bcEC3+K1a+NXbt4cv27HDm98GvXLowJar0m6/4ovLKOsyp1T3i5cUL4qWUzu
-1KouMqi/SO0aIlEVZU7Hjr57vQ/32uzZs8fbdf24ftFAtt7LNQL32DkDiysw
-ZDf7O3qkn3vuOS/rPluvw87wgC/wCTb5N+DKrqEFd9m1zu7HXdSQU1pTy3IX
-fGOfM32vZ+MG4wkc2Wfj2jU22DgWilf6kTwpHS+bOwV7qtwL2AdqTuROgXXM
-73nc3Uhd4eRO/+Nv8+wzMiFLJtmUL48cL1JYfigZIdKqhcjAfgZLUsHjP3if
-vN7mAlxzZq23QN2Xa8TOmoIFiyuuffScneFhAyPMHOg1/6v/D89poX/W1ruS
-cxfcBxZtDZlcj/fj//NXuQuMJH/2YPA8S/A6lcFr1djn49JDDEbY+F75x5/S
-8QrOnewaLhwT/NG0VHd6HAMuinrqCW8l3ar+58n4mv/5j9miNXfqqrnT7OxZ
-ZVeBfPJxkUJyzVNapGM7kbatRCp6RMqV8W8rcO/1e20uYOcNyKWspwFOLD/Y
-tYXts1nQa2g5MKE/+//IzEGGDBkMdyWfP7XcxfVoPQ3wRX4GL/7ZvAsuCtZ8
-9llptlcYzKEX4SF6R8AOuhcvBHzYZ+Ky8XNg7daE4ONlcye7/qWtO5GDcV94
-1HKnRyXAUuUn/ye+ylNPCrlSzNP/K2i8Zs/8V1o+k07aPveMjMiUUfYXKiCf
-RRSRm1Uri/TrLdKgnkilcnKjdKTvfu9vtQvXGdcUmgouACd4VNbTUE7y67UK
-1/iUa+L1WjabXkte/b3nz+5XMHfZ/lywYudP4UE0JHkInhsYo7/wXp5hMHeR
-zyR/1jT3Czu/jDaElyyWwJFdYwM8ws/wnt34HX/DH+GZJynlTnwm1lABT/Dt
-o5w7pdUwvPTkk74oxRJcVFex1Oi/T0tzxVIr1XntFEsd0z8rXZSjuj3vbFuL
-hculLh1FalZTbirtv1giwne/9y+ULp2Paw79w/XC9ch1yrVMD5p9RsT96jEP
-IhTLv+EusBXMXeRa+IXgK7Cuwz3zLnjlfs/GReOh5+Ae9ts+Z9quVQPfcW+x
-Gz/D3bwGXZw8dwJPrAfr5k6pNww3PfWk3+KpnuKpcbqnpYXyEnlTh+ccLPV4
-Pr30zvC89H8hgwzKmEEGZ3S+js0cJqPCXrjn+g/BnkZtvW9zX+Yez/WJdqF+
-he7iXqvXre9h7fcf4S5bR7b1avAfPKfFPYE8KaVn4wavVwPu4B5wAl7sc6a5
-r4BttBy5H1/52a7XCi8Fr39pe/bw96j3Kb8/tOPlxh8LJ296UtiqBfip8X/v
-4qlTAEt9X3je4Aefb1SmMIOj8VkyyYu6UecdqXqwa/pnfcnfn3xM8SptA57G
-guLFzL3dahfwZH1f+OPhHwEnlDt9iqsEW3e23AVu0H94GORa4Gru3Lm2N9xc
-/3/k2bgprVcDhuwcs60D2O/hT/BlX2vrTvQ52txJP2fIjpcbKUcwP5E/1db8
-CTyRN8FN3RRL/RRLw8JekNGKI/AzJWtmmZYti6nvzsqe1XgVbPw8Uf/ePX16
-j31v6lfVFafoxGBP41StmrKW2UzNn7hOqQerDgoL7dFwAu4K5HG/4i6uaXjV
-rs1PvsXaxnBP8LNx7fqEydersc+atuvVBK/3FbxOq11nnP8n2LK+Jf1Y4Aks
-g6fUcrzc+HVUefLJeAdPT0ktxVNT1WZwEzqvTwYHS/AROAI/C3Jkk/ic2WVZ
-rhzykm4rcuU0X5fqtkR/v1D/Pl2xZXv/6j/9tAxQncjff+VpDOgre+KGPZTc
-6e/E73EX+VVw/enPrFdj+6/wHMEJ3IO/z/uCM7tmDXgityN/InfSHM99RmQq
-Dav50Hu1A3jC04NTwAFablKWzIZfFitewM6aPLlkQ97c8mq+PPKablsCX/l5
-vf7t5dw5Dbboo22m74dG5N8cCS8kFyKLS2JsY6d+FR1l6ldjk9WVUmuw7k9K
-3EVuZNd/suvV4ClQbyIHutezpvm35GTkZsxXMsNCfoQnQg2OeoFdswZcgUE3
-d0r9AUdZfw8/gnynu2o9cqYxyk3TsmYxvLRcsbRWcUFtl16+11W/JRTMb3jn
-Dd34Sk/S7oL5ZKv+fZ2+dkjGFwy3vZY/j7xftLD8WLqkSLvWIn16ilQuL1K+
-jP/7iIiwUB+DvxLR0dE+5Z0E/Do4yeIpeC0AagR2DUo7uxyMJziIXAx+ovec
-Z4Azv0LPPZwEruza43AW/MhaeaHedzfuH8pP/noBvxyvHH6yHh65EdxEz9Er
-yktgaY/i5k3Fz6HwgvJukcJyrGi4HGfT749qjnRYuYi/kzOhDcHYJ4qn6xU8
-Il07iXibKZbKGjz9+z5rKKSVUL3nDX42LjVdOMquqYa3Ce7In+z6GhZPaD5q
-2/AS/MR8GL44axeRX9oeEds3hQcZ6v114/6B7qsT8CPw9+gpx4sYrXiaHsDT
-auWbzcpNYAQuAjPvFQuXUyUjxK+881npSN1KytkSxeR0RFE5WayIvKcYOli4
-oOzRf/NF8aJyq0Y1zZ36iNSpIVItSq6XfnSe30pvQ/Jn45JHWY6ymi+4HwR8
-oOvACvVkcijmwPBr8EDpQQzUmwyurA7Uf5smZ+oep4j6zxOeRgE8ofmoOQ3X
-/Gmq6j36y1crP4EnuOatwgWUlwrJB4qnMyUi5OtK5eWHmLpyvWVz+bl2Dbms
-3PNVyeLyuWLrjOLoA+WuI8pliS1inf6KKpVM7nSyaLgv1Pv9oEMx5Q+uReGd
-2+e3W46yzyS2+ZNdux888Wxc1tdgHVm7tkagJyIJV2hAxdQjufb7oxQ1nnrK
-2yzI46N2S+1onuZPq36Fp4JyTLXdR8pBfsXTxTKRcp0eJLRc3BDT45dYvZpc
-Le+R7yJLKLYi5Jziin8j7ej9K2e03v16/9Jy0DeU/Nm4dm4l+Dme8BO1Y+aj
-wBBYss+aRvdRo6OnPPjZuLbnHk7T9/KGel/duH/UffopLzO51KDgKDy+mar5
-yIM2av6E3jug/AQ2ToGn4sXk61Il5Gq5MvILedHwYSITxokMHSRSt5bcVEz9
-pHi7XMrB1amIInLdyZ0e6fsrawRab8L658FrQOFL4NuRG1Erpv+K9chZlwNe
-oh+CdVcOHDhg1oJCBwY/Iw1M0Xcf6v104/cj5umnvfTv0V8+UDmKWi4eH743
-3h35E3rvlOZJnyo/XVAOuqyYuVG5gtypV1ukd0+Rnt1EOrUXqV9H7ijWbpUt
-Jdf0NZcUV37lqqOFCz3SeLKhPPWr53jamWW7BhS+BDkRtTjW1eDZ0tt5ttLK
-laZfGK5inY3gtTUsptB+PXv2dOtRaSBqPfFEWEflqJ4Z0svQsBdMHkVdFo8P
-zfe25kMfFC0sn5YsJpfKlpZryjm3K5WTO9WinP7z7l1EOncQadxAJLqK8fMS
-A7jCN/9Cc6tdBX47U/coRoECBTzBz/FMjin62NF+5Ef0DFr80JtLjxNeH2sX
-0pdh19ZA+5F7DR482P+oPe/nUY5Ozz3rp4ePuQ16JFZqHrUlwFH45GdU730T
-XdXkT7/ENnY8h9Zeh5t8Q0VGxDn+eM3oQN6kuPKUNlx1Xrmt1n/+4wn1Pj6s
-UP3nC65LJceUneGn/xUOsvqOr/BS8PNxLUeBwU6dOnlDvW9u/PHokP7ZePrL
-qe/OVUzhne8okNf4Eh9oPvS55kWXGtaXxG6dRfr2cvofevdwvPEXx4jMnu5w
-FdxVqbxTe1KuAlNnihV9LHRfcJQpUyaBfCqlZ7gHr61hnzNo162xz8W1OLPr
-P93veWlupM4o+8QTnv7KU2btsOzZTK8E3gS67yPF1JelSsoVzZ0ShwwUGekT
-GTtKZNhgB0dsYC2mjjMnD6YqOJhC+x0ML+AJ9f6FIipWrJhg6730T1jfL6W1
-NYJxZTd+RvPdb/0xN1J39Hz+uQQwNUd5CkzRd3RYMUX99nxkcblSpbIkNmvq
-aD56i5o3NZ4EXp/UqenUntB9uiUqT91R7fdVyWKPHUcFh2pAX/CzcYP1n+Uq
-+0wFuz6NfT4uvrld/9CNtBsjM4X56ZOlLpXEU8XC5QvNifD6boEXuIh+cstJ
-bJUrOF/BVAWP8f6ulCrhn5Pj0axF/Zmwz9q0axZS9w3uS4KvyK/AFeuh40mA
-N3otQjlD5saDie7p0oWBKWpTeBTUpeiF+LR4MflWuYq60y3WcCFfonePLcBN
-Fk9ovp9KR/oTHhOv748G2CpdurSf/grrXdheJeak8CSoT7HOLjMe/E5zMW+o
-P7cbfz/6Z8wYRk8S+o9eWXpiz0QUla9LRsgPmlddL1PK6Dqw8ytsWV+idEn/
-4+Kd/9nImzev6bWgJsz8IrVguyY8ORTPpqPWC2+hD/Xvbj3qEYkWylcLcmTz
-UaOiv5x+WGq3F8mrSoOrSLldtpTxy0U3vv6iP1+ILB7fP5U8Ey01Br0WYIre
-JTxBepbss0vwKqgDMz9FjsVcR8uWLV1MPWJBPrQ6Vw4fM1L0Jp2OKCLnla++
-UWx9X6oEOZN8F1nc/0WJYvFvFHg8/b0/EzzniT5bemzxBFmPAo+d3Aluoh+d
-9S7xKPAG0YWh/sxu/HMBvtbkzuHdXSCfL8HZvJtTWHPYjXsHMyHMg9BrwVpk
-5FTMU+FZ4Few/hrPC6DOy89476H+zG64kdrDztXTu4THjk9h/XXmO06ePGlq
-vmAKrLlrX7rhxv2jcOHCftZTYhaEORD8dbsePGsH8hwO+v3w08mzVCN6Q/2Z
-3XAjNYeds8JTZ16RWjB5E/Uq+Ono0aOmnxY/nd81bNjQF+rP7IYbqTnu56fT
-Q8FzRnl2OD0WeH88mzXUn9kNN1Jz4Kfj/Vk/nV5AepbsvCLziaybZP10zbce
-6/4uN9z4vcBPx/tjfdrkfjp9Sqwxy6wvvUrmGT29e7venxtu3Cesn856ZcxY
-Bfvp1KSWqe47e/asLFu1SpavWyfrd+6U5M8+dsMNN34dFSpXlspVq0rj2Fjp
-2a+fjJ0yRRauXCkbFD9nvvtOiFNff22e9cyz1OPGjg0L9Wd2w43UHLVjYvxN
-WraUnoMGyfgZM2SBctLa7dtlyxtvyEdffSW37tyRs4qthKNHZfPevTJq4kRv
-qD+zG26k5oiuUye+UYsW0k05aszUqTJvxQp5ecsWg6njfr9cv3VLPv/+e9l/
-/LhsffNN4Xnqof7MbriRmqNK9erxjXguW69eMmLSJJm9bJms3LxZNu/bJ2+f
-OiXfX78uF3/8Ud48cUJ2HDwoC1audP10N9y4T5SPivI2ZO63a1eJGz9eZsbH
-y0ubNsmrmjvtf+89+ebaNbmiuDp08qTsPHSIv7nr+rnhxn0iIjLSE8MaFR07
-ypDRo2XawoWybONGeWXPHtnzzjvy1dWrRv8dUx34+pEjsmbbNtdPd8ON3wkw
-1bxtWxnA8wfmzZMl69bJhtdfN7z0meZSdxIT5cT588b74/ct2rcPC/VndsON
-1Bx1GjTwx7ZuLX2GDpUJs2fLotWrZd2OHcaT+OTbbyVRMfXxhQuSEPDT+8TF
-eUP9md1wIzVHzZgYf2OvV3oMHCjjpk83fjoaD+/vwy+/NH76Oeun79snL86c
-6Q31Z3bDjdQc1k/v2revjJ4yRea+9FKSn37s3Dn56eZN+eLKFeNZbDtwQGYs
-Xux6f264cZ+oFB3tw/vr2LOnjJg4UWYvXZrkpx/66CO5fP26fHP1qhz48EPj
-py9as8bFlBtu3Cfw0xvwDJ0uXWTYuHEyAz/9lVdM7rTv2DG5eO2aXP3lFzn8
-8cey6+23ZcXmza6f7oYb9wnrp7fs0EEGjxolUxcskGUbNsgru3fL64cPy/kf
-f5Sbt2+bvordR47I6q1bXT/dDTd+J+o3aWL89P4+n0yaO1fi166VDbt2yXbV
-ev7vvzfe3wdffim733lHNirW2nfvHhbqz+yGG6k58NObtmolvYcMkRdnzUry
-0/EpPv7mG1OjOn3xYlJ/+qARI7yh/sxuuJGao0b9+gnGTx8wQMZOmybzV65M
-8tNPfPGF3LxzRz69dEn2an6FJ9jRfU6iG27cN6rWrm389C59+sioyZNl7vLl
-8vJrr8lr+/fLu2fOyDnVfa+oFsQXRCO2aNeOr65X4YYbKURE2bJhZcqXT6ha
-s6Y0bNZMvO3bS5vOnaVVp07GX8cTRBe27NiRPEo69+4t3fr3N5tqRRdXbriR
-LEqULu0rWaaMsJXyeKRi1apSvW5dqde4saAHwRLY6q4Yon8JH2PQyJHGI+Sr
-6kVXB7rhRiDgqOR4qlm/vuEmNF6HHj3MDPDAESPMLAi6cOz06fQnmblg5hjR
-g607d/aEel/ccCM1BBwVWbaslK1YMQlP9FTATeRW/eLiDJbwLfDYZyxebOYW
-5730ktnouZgyf74MnzDB5So33NBQfkrwVKoklaKjpXqdOoafqP127dfPcNPI
-SZNk4pw5ZlaR3tol69ebmUV6l9hW6PfUsqYr1kK9L264kRoCfoqqXt3Jn5o0
-MX4evbTgadSUKYaD8ADj160zHjr9fsx8bH/rLXlt3z5Tq6KOtXTDBukfFxcW
-6v1xw41QBuv7VapWzeCpTsOGxtvDi8CDIG8CT6z5wtwvtSpwdObzz+W769ed
-WtXx42b2l9+v27mTdco8od4nN9wIdVStVcvgCc2Hd95r8GDxvfiiyZ2Y+Viu
-eIKH4KQjH38sF69ckUQR+fnOHVO3euvDD2VfYE2lCTNmeEK9P264EeqoFRMj
-MbGxEtumjVk7adCoUTJuxgyZtXSp0XNr6U/av9/wET20X1+9KrcSE+WLH380
-/RXvnj0rh06dMmtXjJ0yJSzU++OGG6GO2jExpn+CNV6Y8x0+YYLRfAtfftnw
-007Nn9755BMzm3hO9d5PylF3dPtKMXXq4kWzTsVRxdX+48fd2q8bbmjUqFvX
-Sx5Ff0TfYcNMvWnWkiWGo8DTh59+Kjdv3ZKfVOv9Infj0s8/yyeKsVMXLsh7
-n30muw4fdr10N9wIhGLKj+5j3aTxM2eauhM+OXru7Ndfm/zptm634CjVfVcV
-X18rps5cvmx61lX/+aOioz2h3g833Egt0bBpU0/nPn2Mf05/BD3p+Ob4Dsz2
-fnXtmnyuWu+zK1fky+vX5YuffhL/Dz/IWcXUKWc9JV+o98ENN1JbtOzY0QdP
-sW5S0prp+/eb2Y4jmk+h7z5SzuJZH2DpbICj9G+u5nPDjXtEl/79vfRNzNR8
-akVgfWfmeg9+9JEcPXdOPjh/3vgSYIn5xIMnT/pC/ZndcCO1B70Q42bMiLdr
-/G1T/Uf9ifXS3zlzxvh/h0+f9m9MSPCE+rO64UZaCtab6Dl4sC9+7Vrf+p07
-41/dsyd+3Y4d3ikLFnhC/dnccMMNN/5I/P8XFbTh
-               "], {{0, 0}, {213, 
-               223}}, {0, 255}, ColorFunction -> RGBColor], ImageSize -> 234, 
-              ImageSize -> {213, 223}, PlotRange -> {{0, 213}, {0, 223}}], 
-             ImageSizeAction -> "ShrinkToFit", ImageSize -> 400], 
-            TraditionalForm]], "Output", {
-          Background -> None, 
-           GraphicsBoxOptions -> {
-            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
-             DefaultAxesStyle -> Directive[
-               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
-               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
-               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
-               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
-             Directive[
-              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
-             DefaultTicksStyle -> 
-             Directive[
-              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
-           Graphics3DBoxOptions -> {
-            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
-          RenderingOptions -> {
-           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
-       XMLElement["dataformats", {}, {"computabledata,formatteddata"}]}], 
-     XMLElement["states", {"count" -> "3"}, {
-       XMLElement[
-       "state", {
-        "name" -> "Hide multiple bonds", "input" -> 
-         "3DStructure:ChemicalData__Hide multiple bonds"}, {}], 
-       XMLElement[
-       "state", {
-        "name" -> "Show bonds only", "input" -> 
-         "3DStructure:ChemicalData__Show bonds only"}, {}], 
-       XMLElement[
-       "state", {
-        "name" -> "Show space filling model", "input" -> 
-         "3DStructure:ChemicalData__Show space filling model"}, {}]}]}], 
-   Typeset`pod5$$ = XMLElement[
    "pod", {"title" -> "Basic properties", "scanner" -> "Data", "id" -> 
-     "Basic:ChemicalData", "position" -> "500", "error" -> "false", 
+     "Basic:ChemicalData", "position" -> "300", "error" -> "false", 
      "numsubpods" -> "1"}, {
      XMLElement["subpod", {"title" -> ""}, {
        XMLElement[
@@ -2822,8 +2036,8 @@ EntityProperty[\"Chemical\", \"BoilingPoint\"], EntityProperty[\"Chemical\", \
                    TagBox[
                     TagBox[
                     RowBox[{
-                    TagBox["112.087", 
-                    $CellContext`TagBoxWrapper["StringBoxes" -> "112.087"]], 
+                    TagBox["112.09", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "112.09"]], 
                     "\[NoBreak]", 
                     StyleBox[
                     RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
@@ -2985,7 +2199,8 @@ EntityProperty[\"Chemical\", \"BoilingPoint\"], EntityProperty[\"Chemical\", \
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -3078,6 +2293,285 @@ quantitydata"}]}],
                   FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
                Graphics3DBoxOptions -> {
                 DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+              NumberPoint -> ".", 
+              AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+              RenderingOptions -> {
+               "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}]}]}]}]}], 
+   Typeset`pod4$$ = XMLElement[
+   "pod", {"title" -> "Hydrophobicity and permeability properties", "scanner" -> 
+     "Data", "id" -> "HydrophobicityPermeabilityProperties:ChemicalData", 
+     "position" -> "400", "error" -> "false", "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              GridBox[{{
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"predicted LogP hydrophobicity\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  StyleBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    RowBox[{"-", 
+                    TagBox["1.19", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "1.19"]]}]}], #& , SyntaxForm -> Dot], 
+                    "Unit", SyntaxForm -> Dot], 
+                   LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0, ZeroWidthTimes -> False], Identity]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"experimental LogS\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  StyleBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    RowBox[{"-", 
+                    TagBox["1.48", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "1.48"]]}]}], #& , SyntaxForm -> Dot], 
+                    "Unit", SyntaxForm -> Dot], 
+                   LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0, ZeroWidthTimes -> False], Identity]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"predicted LogS\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  StyleBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    RowBox[{"-", 
+                    TagBox["0.63", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "0.63"]]}]}], #& , SyntaxForm -> Dot], 
+                    "Unit", SyntaxForm -> Dot], 
+                   LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0, ZeroWidthTimes -> False], Identity]}, {
+                 TagBox[
+                  PaneBox[
+                   TagBox[
+                   "\"experimental Caco\[Hyphen]2 permeability\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 TagBox[
+                  StyleBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    RowBox[{"-", 
+                    TagBox["5.37", 
+                    $CellContext`TagBoxWrapper[
+                    "StringBoxes" -> "5.37"]]}]}], #& , SyntaxForm -> Dot], 
+                    "Unit", SyntaxForm -> Dot], 
+                   LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0, ZeroWidthTimes -> False], Identity]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
+               AutoDelete -> False, 
+               GridBoxBackground -> {"Columns" -> {None, None}}, 
+               GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, 
+               FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic, 
+               AllowScriptLevelChange -> False], "Grid"], 
+             LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+             False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}]}]\
+, Typeset`pod5$$ = XMLElement[
+   "pod", {"title" -> "Solid properties (at STP)", "scanner" -> "Data", "id" -> 
+     "SolidProperties:ChemicalData", "position" -> "500", "error" -> "false", 
+     "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              GridBox[{{
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"density\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  TagBox[
+                   TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["0.99174", 
+                    $CellContext`TagBoxWrapper["StringBoxes" -> "0.99174"]], 
+                    "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", 
+                    SuperscriptBox["\"cm\"", "3"]}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], #& , 
+                    SyntaxForm -> Dot], "Unit", SyntaxForm -> Dot], 
+                  LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                  0, ZeroWidthTimes -> False]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {Left, Right}, "Rows" -> {{Baseline}}}, 
+               AutoDelete -> False, 
+               GridBoxBackground -> {"Columns" -> {None, None}}, 
+               GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, 
+               FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic, 
+               AllowScriptLevelChange -> False], "Grid"], 
+             LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+             False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
+     
+     XMLElement["infos", {"count" -> "1"}, {
+       XMLElement["info", {}, {
+         XMLElement["units", {"count" -> "1"}, {
+           XMLElement[
+           "unit", {
+            "short" -> "g/cm^3", "long" -> "grams per cubic centimeter"}, {}], 
+           XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+             Cell[
+              BoxData[
+               FormBox[
+                StyleBox[
+                 TagBox[
+                  GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    StyleBox[
+                    
+                    RowBox[{"\"g\"", "\[InvisibleSpace]", "\"/\"", 
+                    "\[InvisibleSpace]", 
+                    SuperscriptBox["\"cm\"", "3"]}], FontFamily -> 
+                    "Helvetica", FontSize -> Smaller]}], Identity], 
+                    "UnitOnly", SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], 10, StripOnInput -> False], 
+                    StyleBox[
+                    "\"grams per cubic centimeter\"", {
+                    FontSize -> 10, FontFamily -> "Helvetica", FontSize -> 
+                    Smaller, 
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}}, 
+                   GridBoxAlignment -> {
+                    "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
+                   AutoDelete -> False, 
+                   GridBoxBackground -> {"Columns" -> {{None}}}, 
+                   GridBoxFrame -> {
+                    "Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                   GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                   GridBoxSpacings -> {
+                    "Columns" -> {{1.5}}, "Rows" -> {{0.5}}}, FrameStyle -> 
+                   GrayLevel[0.84], BaselinePosition -> Automatic, 
+                   AllowScriptLevelChange -> False], "Grid"], 
+                 LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+                 False], TraditionalForm]], "Output", {
+              Background -> None, 
+               GraphicsBoxOptions -> {
+                DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+                 DefaultAxesStyle -> Directive[
+                   GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                   FontOpacity -> 1, "GraphicsAxes"], DefaultFrameStyle -> 
+                 Directive[
+                   GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], 
+                   FontOpacity -> 1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+                 Directive[
+                  FontFamily -> "Times", FontSize -> 10, 
+                   "GraphicsFrameTicks"], DefaultTicksStyle -> 
+                 Directive[
+                  FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+               Graphics3DBoxOptions -> {
+                DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+              NumberPoint -> ".", 
+              AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
               RenderingOptions -> {
                "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}]}]}]}]}], 
    Typeset`pod6$$ = XMLElement[
@@ -3130,7 +2624,6 @@ quantitydata"}]}],
                     
                     RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/\"", 
                     "\[InvisibleSpace]", 
-                    
                     RowBox[{"\"(\"", "\[InvisibleSpace]", "\"g\"", 
                     "\[InvisibleSpace]", "\"\[ThinSpace]\"", 
                     "\[InvisibleSpace]", "\"K\"", "\[InvisibleSpace]", 
@@ -3258,7 +2751,8 @@ quantitydata"}]}],
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -3361,6 +2855,8 @@ quantitydata"}]}],
                   FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
                Graphics3DBoxOptions -> {
                 DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+              NumberPoint -> ".", 
+              AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
               RenderingOptions -> {
                "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}]}]}]}]}], 
    Typeset`pod7$$ = XMLElement[
@@ -3473,7 +2969,8 @@ EntityProperty[\"Chemical\", \"SMILES\"]}, \"PropertyAssociation\"]]"}],
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -3483,47 +2980,86 @@ EntityProperty[\"Chemical\", \"SMILES\"]}, \"PropertyAssociation\"]]"}],
        XMLElement[
        "state", {
         "name" -> "More", "input" -> 
-         "ChemicalIdentifiers:ChemicalData__More"}, {}]}]}], Typeset`pod8$$, 
-   Typeset`pod9$$, Typeset`pod10$$, Typeset`pod11$$, Typeset`pod12$$, 
-   Typeset`pod13$$, Typeset`pod14$$, Typeset`pod15$$, Typeset`pod16$$, 
-   Typeset`pod17$$, Typeset`pod18$$, Typeset`pod19$$, Typeset`pod20$$, 
-   Typeset`pod21$$, Typeset`pod22$$, Typeset`pod23$$, Typeset`pod24$$, 
-   Typeset`pod25$$, Typeset`pod26$$, Typeset`pod27$$, Typeset`pod28$$, 
-   Typeset`pod29$$, Typeset`pod30$$, Typeset`pod31$$, Typeset`pod32$$, 
-   Typeset`pod33$$, Typeset`pod34$$, Typeset`pod35$$, Typeset`pod36$$, 
-   Typeset`pod37$$, Typeset`aux1$$ = {True, False, {False}, True}, 
-   Typeset`aux2$$ = {True, False, {False}, True}, Typeset`aux3$$ = {
-   True, False, {False}, True}, Typeset`aux4$$ = {True, False, {False}, True},
-    Typeset`aux5$$ = {True, False, {False}, True}, Typeset`aux6$$ = {
-   True, False, {False}, True}, Typeset`aux7$$ = {True, False, {False}, True},
-    Typeset`aux8$$ = {True, False, {False}, True}, Typeset`aux9$$ = {
-   True, False, {False}, True}, Typeset`aux10$$ = {
-   True, False, {False}, True}, Typeset`aux11$$ = {True, False, {False}, True}
-   , Typeset`aux12$$ = {True, False, {False}, True}, Typeset`aux13$$ = {
-   True, False, {False}, True}, Typeset`aux14$$ = {
-   True, False, {False}, True}, Typeset`aux15$$ = {
-   True, False, {False}, True}, Typeset`aux16$$ = {
-   True, False, {False}, True}, Typeset`aux17$$ = {
-   True, False, {False}, True}, Typeset`aux18$$ = {
-   True, False, {False}, True}, Typeset`aux19$$ = {
-   True, False, {False}, True}, Typeset`aux20$$ = {
-   True, False, {False}, True}, Typeset`aux21$$ = {
-   True, False, {False}, True}, Typeset`aux22$$ = {
-   True, False, {False}, True}, Typeset`aux23$$ = {
-   True, False, {False}, True}, Typeset`aux24$$ = {
-   True, False, {False}, True}, Typeset`aux25$$ = {
-   True, False, {False}, True}, Typeset`aux26$$ = {
-   True, False, {False}, True}, Typeset`aux27$$ = {
-   True, False, {False}, True}, Typeset`aux28$$ = {
-   True, False, {False}, True}, Typeset`aux29$$ = {
-   True, False, {False}, True}, Typeset`aux30$$ = {
-   True, False, {False}, True}, Typeset`aux31$$ = {
-   True, False, {False}, True}, Typeset`aux32$$ = {
-   True, False, {False}, True}, Typeset`aux33$$ = {
-   True, False, {False}, True}, Typeset`aux34$$ = {
-   True, False, {False}, True}, Typeset`aux35$$ = {
-   True, False, {False}, True}, Typeset`aux36$$ = {
-   True, False, {False}, True}, Typeset`aux37$$ = {
+         "ChemicalIdentifiers:ChemicalData__More"}, {}]}]}], Typeset`pod8$$ = 
+   XMLElement[
+   "pod", {"title" -> "Toxicity properties", "scanner" -> "Data", "id" -> 
+     "ToxicityProperties:ChemicalData", "position" -> "800", "error" -> 
+     "false", "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement[
+       "minput", {}, {
+        "Dataset[EntityValue[Entity[\"Chemical\", \"Uracil\"], \
+{EntityProperty[\"Chemical\", \"RTECSClasses\"]}, \
+\"PropertyAssociation\"]]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              GridBox[{{
+                 TagBox[
+                  PaneBox[
+                   TagBox["\"RTECS classes\"", Identity], 
+                   BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                  $CellContext`TagBoxWrapper["Label"]], 
+                 StyleBox[
+                  RowBox[{"\"tumorigen\"", 
+                    StyleBox[
+                    RowBox[{"\[NoBreak]", 
+                    PaneBox[
+                    "\"  |  \"", BaselinePosition -> Baseline, BaseStyle -> 
+                    GrayLevel[0.6]]}], AutoSpacing -> True], "\"mutagen\"", 
+                    StyleBox[
+                    RowBox[{"\[NoBreak]", 
+                    PaneBox[
+                    "\"  |  \"", BaselinePosition -> Baseline, BaseStyle -> 
+                    GrayLevel[0.6]]}], AutoSpacing -> True], 
+                    "\"reproductive effector\""}], 
+                  LinebreakAdjustments -> {1, 10, 0, 0, 100}, LineIndent -> 
+                  0]}}, GridBoxAlignment -> {
+                "Columns" -> {Left, Left}, "Rows" -> {{Baseline}}}, 
+               AutoDelete -> False, 
+               GridBoxBackground -> {"Columns" -> {None, None}}, 
+               GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {"Columns" -> {{1.5}, 2}, "Rows" -> {{1}}}, 
+               FrameStyle -> GrayLevel[0.84], BaselinePosition -> Automatic, 
+               AllowScriptLevelChange -> False], "Grid"], 
+             LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+             False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,computabledata,formatteddata"}]}]}], 
+   Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
+   True, False, {False}, True}, Typeset`aux3$$ = {True, False, {False}, True},
+    Typeset`aux4$$ = {True, False, {False}, True}, Typeset`aux5$$ = {
+   True, False, {False}, True}, Typeset`aux6$$ = {True, False, {False}, True},
+    Typeset`aux7$$ = {True, False, {False}, True}, Typeset`aux8$$ = {
    True, False, {False}, True}, Typeset`asyncpods$$ = {}, Typeset`nonpods$$ = {
     XMLElement["assumptions", {"count" -> "2"}, {
       XMLElement[
@@ -3561,101 +3097,44 @@ ChemicalDataSourceInformationNotes.html", "text" -> "Chemical data"}, {}],
       "source", {
        "url" -> 
         "http://www.wolframalpha.com/sources/\
-ElementDataSourceInformationNotes.html", "text" -> "Element data"}, {}]}], 
-    XMLElement["sources", {"count" -> "2"}, {
-      XMLElement[
-      "source", {
-       "url" -> 
-        "http://www.wolframalpha.com/sources/\
-ChemicalDataSourceInformationNotes.html", "text" -> "Chemical data"}, {}], 
-      XMLElement[
-      "source", {
-       "url" -> 
-        "http://www.wolframalpha.com/sources/\
 ElementDataSourceInformationNotes.html", "text" -> "Element data"}, {}]}]}, 
-   Typeset`initdone$$ = True, 
-   Typeset`queryinfo$$ = {{
-    "success" -> "true", "error" -> "false", "numpods" -> "7", "datatypes" -> 
-     "Chemical,MatterPhase", "timedout" -> "Data,Character", "timedoutpods" -> 
-     "", "timing" -> "4.367", "parsetiming" -> "0.167", "parsetimedout" -> 
-     "false", "recalculate" -> 
-     "http://www4f.wolframalpha.com/api/v2/recalc.jsp?id=\
-MSPa43618be85e50e3eba6g00001bfbbd07c9cha0db&redisFailed=true&s=3", "id" -> 
-     "MSPa43718be85e50e3eba6g00001a1e1cbdi2f74e19", "host" -> 
-     "http://www4f.wolframalpha.com", "server" -> "3", "related" -> 
-     "http://www4f.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
-MSPa43818be85e50e3eba6g0000198b2df1d21dhi13&redisFailed=true&s=3", "version" -> 
-     "2.6"}, {"success" -> "true", "error" -> "false", "numpods" -> "1", 
-     "datatypes" -> "Chemical,MatterPhase", "timedout" -> "Data,Character", 
-     "timedoutpods" -> "", "timing" -> "5.255", "parsetiming" -> "0.", 
-     "parsetimedout" -> "false", "recalculate" -> "", "id" -> "", "host" -> 
-     "http://www4f.wolframalpha.com", "server" -> "3", "related" -> "", 
-     "version" -> "2.6"}}, Typeset`sessioninfo$$ = {
+   Typeset`initdone$$ = True, Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> "false", "numpods" -> "8", "datatypes" -> 
+    "Chemical,MatterPhase", "timedout" -> "", "timedoutpods" -> "", "timing" -> 
+    "3.331", "parsetiming" -> "0.122", "parsetimedout" -> "false", 
+    "recalculate" -> "", "id" -> 
+    "MSPa35661cfe25h0d5fe1a7e000026229i2a73687da3", "host" -> 
+    "http://www4b.wolframalpha.com", "server" -> "25", "related" -> 
+    "http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa35671cfe25h0d5fe1a7e00003c61ddb90ia7853h2546337270794351225", "version" -> 
+    "2.6"}, Typeset`sessioninfo$$ = {
    "TimeZone" -> -4., 
-    "Date" -> {2017, 10, 24, 16, 52, 49.450086`8.44674202702235}, "Line" -> 
-    10, "SessionID" -> 15841486459320861701}, Typeset`showpods$$ = {1, 2, 3, 
-   4, 5, 6, 7}, Typeset`failedpods$$ = {8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
-   18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36,
-    37}, Typeset`chosen$$ = {}, Typeset`open$$ = False, Typeset`newq$$ = 
-   "Uracil"}, 
+    "Date" -> {2018, 3, 13, 19, 41, 27.532333`8.192417995444567}, "Line" -> 7,
+     "SessionID" -> 15920898660014334325}, Typeset`showpods$$ = {1, 2, 3, 4, 
+   5, 6, 7, 8}, Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, 
+   Typeset`open$$ = False, Typeset`newq$$ = "Uracil"}, 
    DynamicBox[ToBoxes[
      AlphaIntegration`FormatAlphaResults[
       Dynamic[{
-       2, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
-         Typeset`pod5$$, Typeset`pod6$$, Typeset`pod7$$, Typeset`pod8$$, 
-         Typeset`pod9$$, Typeset`pod10$$, Typeset`pod11$$, Typeset`pod12$$, 
-         Typeset`pod13$$, Typeset`pod14$$, Typeset`pod15$$, Typeset`pod16$$, 
-         Typeset`pod17$$, Typeset`pod18$$, Typeset`pod19$$, Typeset`pod20$$, 
-         Typeset`pod21$$, Typeset`pod22$$, Typeset`pod23$$, Typeset`pod24$$, 
-         Typeset`pod25$$, Typeset`pod26$$, Typeset`pod27$$, Typeset`pod28$$, 
-         Typeset`pod29$$, Typeset`pod30$$, Typeset`pod31$$, Typeset`pod32$$, 
-         Typeset`pod33$$, Typeset`pod34$$, Typeset`pod35$$, Typeset`pod36$$, 
-         Typeset`pod37$$}, {
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
+         Typeset`pod5$$, Typeset`pod6$$, Typeset`pod7$$, Typeset`pod8$$}, {
         Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$, 
-         Typeset`aux5$$, Typeset`aux6$$, Typeset`aux7$$, Typeset`aux8$$, 
-         Typeset`aux9$$, Typeset`aux10$$, Typeset`aux11$$, Typeset`aux12$$, 
-         Typeset`aux13$$, Typeset`aux14$$, Typeset`aux15$$, Typeset`aux16$$, 
-         Typeset`aux17$$, Typeset`aux18$$, Typeset`aux19$$, Typeset`aux20$$, 
-         Typeset`aux21$$, Typeset`aux22$$, Typeset`aux23$$, Typeset`aux24$$, 
-         Typeset`aux25$$, Typeset`aux26$$, Typeset`aux27$$, Typeset`aux28$$, 
-         Typeset`aux29$$, Typeset`aux30$$, Typeset`aux31$$, Typeset`aux32$$, 
-         Typeset`aux33$$, Typeset`aux34$$, Typeset`aux35$$, Typeset`aux36$$, 
-         Typeset`aux37$$}, Typeset`chosen$$, Typeset`open$$, 
-        Typeset`elements$$, Typeset`q$$, Typeset`opts$$, Typeset`nonpods$$, 
-        Typeset`queryinfo$$, Typeset`sessioninfo$$, Typeset`showpods$$, 
-        Typeset`failedpods$$, Typeset`newq$$}]], StandardForm],
-    ImageSizeCache->{738., {684., 690.}},
+         Typeset`aux5$$, Typeset`aux6$$, Typeset`aux7$$, Typeset`aux8$$}, 
+        Typeset`chosen$$, Typeset`open$$, Typeset`elements$$, Typeset`q$$, 
+        Typeset`opts$$, Typeset`nonpods$$, Typeset`queryinfo$$, 
+        Typeset`sessioninfo$$, Typeset`showpods$$, Typeset`failedpods$$, 
+        Typeset`newq$$}]], StandardForm],
+    ImageSizeCache->{738., {608., 614.}},
     TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
    DynamicModuleValues:>{},
    Initialization:>If[
-     Not[Typeset`initdone$$], Null; AlphaIntegration`DoAsyncInitialization[
+     Not[Typeset`initdone$$], Null; 
+     WolframAlphaClient`Private`doAsyncUpdates[
        Hold[{
-        2, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
-          Typeset`pod5$$, Typeset`pod6$$, Typeset`pod7$$, Typeset`pod8$$, 
-          Typeset`pod9$$, Typeset`pod10$$, Typeset`pod11$$, Typeset`pod12$$, 
-          Typeset`pod13$$, Typeset`pod14$$, Typeset`pod15$$, Typeset`pod16$$, 
-          Typeset`pod17$$, Typeset`pod18$$, Typeset`pod19$$, Typeset`pod20$$, 
-          Typeset`pod21$$, Typeset`pod22$$, Typeset`pod23$$, Typeset`pod24$$, 
-          Typeset`pod25$$, Typeset`pod26$$, Typeset`pod27$$, Typeset`pod28$$, 
-          Typeset`pod29$$, Typeset`pod30$$, Typeset`pod31$$, Typeset`pod32$$, 
-          Typeset`pod33$$, Typeset`pod34$$, Typeset`pod35$$, Typeset`pod36$$, 
-          Typeset`pod37$$}, {
-         Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$, 
-          Typeset`aux5$$, Typeset`aux6$$, Typeset`aux7$$, Typeset`aux8$$, 
-          Typeset`aux9$$, Typeset`aux10$$, Typeset`aux11$$, Typeset`aux12$$, 
-          Typeset`aux13$$, Typeset`aux14$$, Typeset`aux15$$, Typeset`aux16$$, 
-          Typeset`aux17$$, Typeset`aux18$$, Typeset`aux19$$, Typeset`aux20$$, 
-          Typeset`aux21$$, Typeset`aux22$$, Typeset`aux23$$, Typeset`aux24$$, 
-          Typeset`aux25$$, Typeset`aux26$$, Typeset`aux27$$, Typeset`aux28$$, 
-          Typeset`aux29$$, Typeset`aux30$$, Typeset`aux31$$, Typeset`aux32$$, 
-          Typeset`aux33$$, Typeset`aux34$$, Typeset`aux35$$, Typeset`aux36$$, 
-          Typeset`aux37$$}, Typeset`chosen$$, Typeset`open$$, 
-         Typeset`elements$$, Typeset`q$$, Typeset`opts$$, Typeset`nonpods$$, 
-         Typeset`queryinfo$$, Typeset`sessioninfo$$, Typeset`showpods$$, 
-         Typeset`failedpods$$, Typeset`newq$$, 
-         "http://www4f.wolframalpha.com/api/v2/recalc.jsp?id=\
-MSPa43618be85e50e3eba6g00001bfbbd07c9cha0db&redisFailed=true&s=3", 
-         Typeset`asyncpods$$}]]; Typeset`asyncpods$$ = {}; 
+        Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
+         Typeset`pod5$$, Typeset`pod6$$, Typeset`pod7$$, Typeset`pod8$$}], 
+       Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
      Typeset`initdone$$ = True],
    SynchronousInitialization->False],
   BaseStyle->{Deployed -> True},
@@ -3663,8 +3142,8 @@ MSPa43618be85e50e3eba6g00001bfbbd07c9cha0db&redisFailed=true&s=3",
   Editable->False,
   SelectWithContents->True]], "Print", "WolframAlphaFullOutput",
  CellChangeTimes->{
-  3.717867169810897*^9},ExpressionUUID->"557e805d-f219-463e-895e-\
-dcd5c37dd3d4"]
+  3.7299732876274023`*^9},ExpressionUUID->"9e643f09-5550-4628-b12a-\
+fa21598e0ecc"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3674,26 +3153,25 @@ Cell[BoxData[
   RowBox[{"GenomeData", "[", 
    RowBox[{"\"\<JUN\>\"", ",", "\"\<FullSequence\>\""}], "]"}], "//", 
   "Short"}]], "Input",
- CellChangeTimes->{{3.71778285241072*^9, 
-  3.717782852881826*^9}},ExpressionUUID->"ffff4d8d-4bd5-4758-8dc7-\
-4bba0ad26bca"],
+ CellChangeTimes->{{3.71778285241072*^9, 3.717782852881826*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"ffff4d8d-4bd5-4758-8dc7-4bba0ad26bca"],
 
 Cell[BoxData[
  TagBox[
-  RowBox[{"\<\"GACATCATGGGCTATTTTTAGGGGTTGACTGGTAGCAGATAAGT\"\>", 
-   "\[Ellipsis]", "\<\"ATTTATAACAGCATTCTTGTCACAATAAATGTATTCAAATACCAA\"\>"}],
+  RowBox[{"\<\"GACATCATGGGCTATTTTTAGGGGTTGACTGGTAGCAGATA\"\>", 
+   "\[Ellipsis]", "\<\"ATAACAGCATTCTTGTCACAATAAATGTATTCAAATACCAA\"\>"}],
   Short]], "Output",
- CellChangeTimes->{3.717782858367133*^9, 
-  3.7178671898316193`*^9},ExpressionUUID->"6d4b5a1e-294a-434e-b7fa-\
-a5f758d28a6d"]
+ CellChangeTimes->{3.717782858367133*^9, 3.7178671898316193`*^9, 
+  3.7299732972416983`*^9},
+ CellLabel->
+  "Out[8]//Short=",ExpressionUUID->"e3328147-e927-4268-b24c-67f4b0d81d7d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Chromosome 1", "WolframAlphaLong",
- CellChangeTimes->{{3.7178673603310747`*^9, 
-  3.717867391240594*^9}},ExpressionUUID->"b6fbaee0-319a-49c3-9c04-\
-b9e570826a29"],
+ CellChangeTimes->{{3.7178673603310747`*^9, 3.717867391240594*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"b6fbaee0-319a-49c3-9c04-b9e570826a29"],
 
 Cell[BoxData[
  NamespaceBox["WolframAlphaQueryResults",
@@ -3752,7 +3230,8 @@ Cell[BoxData[
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -3808,7 +3287,8 @@ Cell[BoxData[
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -4245,7 +3725,8 @@ Cell[BoxData[
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement["dataformats", {}, {"computabledata,formatteddata"}]}]}], 
@@ -4267,16 +3748,16 @@ GenomeSequenceDataSourceInformationNotes.html", "text" ->
    Typeset`queryinfo$$ = {
    "success" -> "true", "error" -> "false", "numpods" -> "3", "datatypes" -> 
     "GenomeSequence", "timedout" -> "", "timedoutpods" -> "", "timing" -> 
-    "0.592", "parsetiming" -> "0.129", "parsetimedout" -> "false", 
-    "recalculate" -> "", "id" -> 
-    "MSPa8491718e0bi8d1bbb13000019216gb9b022f9h8", "host" -> 
-    "http://www4f.wolframalpha.com", "server" -> "31", "related" -> 
-    "http://www4f.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
-MSPa8501718e0bi8d1bbb1300004g466211e3cfha6a&redisFailed=true&s=31", "version" -> 
+    "0.515", "parsetiming" -> "0.11900000000000001", "parsetimedout" -> 
+    "false", "recalculate" -> "", "id" -> 
+    "MSPa5221g38g1c8heg406hc00003737b1ga1ffbh071", "host" -> 
+    "http://www4b.wolframalpha.com", "server" -> "43", "related" -> 
+    "http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa5231g38g1c8heg406hc00006532g6f5c70895982376725253226070752", "version" -> 
     "2.6"}, Typeset`sessioninfo$$ = {
    "TimeZone" -> -4., 
-    "Date" -> {2017, 10, 24, 16, 56, 32.539051`8.26497986303782}, "Line" -> 
-    18, "SessionID" -> 15841486459320861701}, Typeset`showpods$$ = {1, 2, 3}, 
+    "Date" -> {2018, 3, 13, 19, 41, 39.500715`8.34917993535776}, "Line" -> 9, 
+    "SessionID" -> 15920898660014334325}, Typeset`showpods$$ = {1, 2, 3}, 
    Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
    Typeset`newq$$ = "Chromosome 1"}, 
    DynamicBox[ToBoxes[
@@ -4304,20 +3785,21 @@ MSPa8501718e0bi8d1bbb1300004g466211e3cfha6a&redisFailed=true&s=31", "version" ->
   Editable->False,
   SelectWithContents->True]], "Print", "WolframAlphaFullOutput",
  CellChangeTimes->{
-  3.717867392683268*^9},ExpressionUUID->"6b0a6ce1-0c7f-465d-86be-\
-73e2abfdf711"]
+  3.7299732996285686`*^9},ExpressionUUID->"3b8647a5-66ea-4834-a8cb-\
+760a58699ae1"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["Chromosome X", "WolframAlphaLong",
- CellChangeTimes->{{3.717867397082902*^9, 
-  3.717867405519348*^9}},ExpressionUUID->"8c1a17dd-1e40-42e7-b054-\
-409899df3707"],
+Cell["Chromosome X genome sequences", "WolframAlphaLong",
+ CellChangeTimes->{{3.717867397082902*^9, 3.717867405519348*^9}, {
+  3.729973315966069*^9, 3.729973318944635*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"8c1a17dd-1e40-42e7-b054-409899df3707"],
 
 Cell[BoxData[
  NamespaceBox["WolframAlphaQueryResults",
-  DynamicModuleBox[{Typeset`q$$ = "Chromosome X", Typeset`opts$$ = {
+  DynamicModuleBox[{Typeset`q$$ = "Chromosome X genome sequences", 
+   Typeset`opts$$ = {
    AppearanceElements -> {
      "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
       "Sources"}, Asynchronous -> All, 
@@ -4372,7 +3854,8 @@ Cell[BoxData[
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -4428,7 +3911,8 @@ Cell[BoxData[
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement[
@@ -4769,7 +4253,8 @@ Cell[BoxData[
               FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
            Graphics3DBoxOptions -> {
             DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
-          CellSize -> {550, Automatic}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
           RenderingOptions -> {
            "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
        XMLElement["dataformats", {}, {"computabledata,formatteddata"}]}]}], 
@@ -4791,18 +4276,18 @@ GenomeSequenceDataSourceInformationNotes.html", "text" ->
    Typeset`queryinfo$$ = {
    "success" -> "true", "error" -> "false", "numpods" -> "3", "datatypes" -> 
     "GenomeSequence", "timedout" -> "", "timedoutpods" -> "", "timing" -> 
-    "0.652", "parsetiming" -> "0.241", "parsetimedout" -> "false", 
+    "0.66", "parsetiming" -> "0.271", "parsetimedout" -> "false", 
     "recalculate" -> "", "id" -> 
-    "MSPa1059723319g9i62830fbe000059adff9i723c68e5", "host" -> 
-    "http://www4f.wolframalpha.com", "server" -> "6", "related" -> 
-    "http://www4f.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
-MSPa1059823319g9i62830fbe0000195ge33a6b0efg1h&redisFailed=true&s=6", 
-    "version" -> "2.6"}, Typeset`sessioninfo$$ = {
+    "MSPa264512h331ecce6i6c8a00003aadc6358iebf5gb", "host" -> 
+    "http://www4b.wolframalpha.com", "server" -> "30", "related" -> 
+    "http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa264612h331ecce6i6c8a00003b35hb945f4876a05186426821976139686", "version" -> 
+    "2.6"}, Typeset`sessioninfo$$ = {
    "TimeZone" -> -4., 
-    "Date" -> {2017, 10, 24, 16, 56, 46.93174`8.424041632645329}, "Line" -> 
-    20, "SessionID" -> 15841486459320861701}, Typeset`showpods$$ = {1, 2, 3}, 
+    "Date" -> {2018, 3, 13, 19, 42, 0.017569`4.997322031996094}, "Line" -> 11,
+     "SessionID" -> 15920898660014334325}, Typeset`showpods$$ = {1, 2, 3}, 
    Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
-   Typeset`newq$$ = "Chromosome X"}, 
+   Typeset`newq$$ = "Chromosome X genome sequences"}, 
    DynamicBox[ToBoxes[
      AlphaIntegration`FormatAlphaResults[
       Dynamic[{
@@ -4828,17 +4313,16 @@ MSPa1059823319g9i62830fbe0000195ge33a6b0efg1h&redisFailed=true&s=6",
   Editable->False,
   SelectWithContents->True]], "Print", "WolframAlphaFullOutput",
  CellChangeTimes->{
-  3.7178674069679728`*^9},ExpressionUUID->"938e5ba0-1af6-4507-8380-\
-1d388b635736"]
+  3.729973320130471*^9},ExpressionUUID->"7c8cf1b6-7f9c-4351-9be5-\
+08646ab0d3bf"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["human proteome", "WolframAlphaLong",
  CellChangeTimes->{{3.7178674106953897`*^9, 3.71786754137344*^9}, {
-  3.717867599629691*^9, 
-  3.7178676017192574`*^9}},ExpressionUUID->"57e9bfba-0964-45d0-857d-\
-ff397c534e0e"],
+  3.717867599629691*^9, 3.7178676017192574`*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"57e9bfba-0964-45d0-857d-ff397c534e0e"],
 
 Cell[BoxData[
  NamespaceBox["WolframAlphaQueryResults",
@@ -4858,14 +4342,14 @@ Cell[BoxData[
       "http://www.wolframalpha.com/examples/Proteins-content.html"}, {}]}, 
    Typeset`initdone$$ = True, Typeset`queryinfo$$ = {
    "success" -> "false", "error" -> "false", "numpods" -> "0", "datatypes" -> 
-    "", "timedout" -> "", "timedoutpods" -> "", "timing" -> "0.307", 
-    "parsetiming" -> "0.22", "parsetimedout" -> "false", "recalculate" -> "", 
-    "id" -> "MSPa33891b7b44067a61a61900001bd40edd5a60e728", "host" -> 
-    "http://www4f.wolframalpha.com", "server" -> "55", "related" -> "", 
+    "", "timedout" -> "", "timedoutpods" -> "", "timing" -> "0.273", 
+    "parsetiming" -> "0.193", "parsetimedout" -> "false", "recalculate" -> "",
+     "id" -> "MSPa3593169cd82b8e685hh000000f6d52ii999f70a8", "host" -> 
+    "http://www4b.wolframalpha.com", "server" -> "53", "related" -> "", 
     "version" -> "2.6"}, Typeset`sessioninfo$$ = {
    "TimeZone" -> -4., 
-    "Date" -> {2017, 10, 24, 17, 0, 3.304656`7.271701246391098}, "Line" -> 35,
-     "SessionID" -> 15841486459320861701}, Typeset`showpods$$ = {}, 
+    "Date" -> {2018, 3, 13, 19, 42, 22.079588`8.096565948457675}, "Line" -> 
+    13, "SessionID" -> 15920898660014334325}, Typeset`showpods$$ = {}, 
    Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
    Typeset`newq$$ = "human proteome"}, 
    DynamicBox[ToBoxes[
@@ -4890,8 +4374,8 @@ Cell[BoxData[
   Editable->False,
   SelectWithContents->True]], "Print", "WolframAlphaFullOutput",
  CellChangeTimes->{
-  3.717867604515459*^9},ExpressionUUID->"1593ee40-efd4-46de-bfad-\
-fe338323081e"]
+  3.729973342155303*^9},ExpressionUUID->"4a235c96-0136-40c5-a326-\
+f1847f962674"]
 }, Open  ]]
 }, Open  ]],
 
@@ -4916,7 +4400,7 @@ Cell[BoxData[
 },
 WindowToolbars->"EditBar",
 WindowSize->{826, 1152},
-WindowMargins->{{110, Automatic}, {Automatic, 0}},
+WindowMargins->{{Automatic, 479}, {Automatic, 0}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 FrontEndVersion->"11.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
@@ -4955,54 +4439,54 @@ Cell[6098, 152, 285, 6, 53, "Item",ExpressionUUID->"3fa9b1fc-c73f-45e4-b82c-fc18
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[6420, 163, 221, 4, 41, "WolframAlphaLong",ExpressionUUID->"acb82f59-2055-446a-b438-57c131615126"],
-Cell[6644, 169, 8234, 162, 321, "Print",ExpressionUUID->"bb56fb74-7db5-4a24-be67-1368fe262859"]
+Cell[6644, 169, 8413, 164, 321, "Print",ExpressionUUID->"81c46f6f-2579-4841-a385-0ed9d3e197c4"]
 }, Open  ]],
-Cell[14893, 334, 267, 4, 32, "Item",ExpressionUUID->"09adf76a-987d-40d1-9ac8-e105be0f1afa"],
-Cell[15163, 340, 133, 3, 34, "WolframAlphaShort",ExpressionUUID->"bb6e1655-3b73-4887-9456-1199e34faeb1"],
-Cell[15299, 345, 260, 4, 32, "Item",ExpressionUUID->"1a18b631-8a27-4ee6-b9fb-e65d2ccf3513"],
-Cell[15562, 351, 132, 3, 41, "WolframAlphaLong",ExpressionUUID->"4a03dff9-161d-46d6-95f5-68754ff02a80"],
-Cell[15697, 356, 226, 4, 32, "Item",ExpressionUUID->"103c3c10-95ee-4bdf-a773-a55310dc4fb1"],
-Cell[15926, 362, 1189, 27, 38, "Input",ExpressionUUID->"7fbab6cd-a95e-43e8-8730-c7bd1df11092"],
-Cell[17118, 391, 213, 5, 35, "Text",ExpressionUUID->"356788d9-0554-461e-8101-52328fb88564"],
+Cell[15072, 336, 267, 4, 32, "Item",ExpressionUUID->"09adf76a-987d-40d1-9ac8-e105be0f1afa"],
+Cell[15342, 342, 133, 3, 34, "WolframAlphaShort",ExpressionUUID->"bb6e1655-3b73-4887-9456-1199e34faeb1"],
+Cell[15478, 347, 260, 4, 32, "Item",ExpressionUUID->"1a18b631-8a27-4ee6-b9fb-e65d2ccf3513"],
+Cell[15741, 353, 132, 3, 41, "WolframAlphaLong",ExpressionUUID->"4a03dff9-161d-46d6-95f5-68754ff02a80"],
+Cell[15876, 358, 226, 4, 32, "Item",ExpressionUUID->"103c3c10-95ee-4bdf-a773-a55310dc4fb1"],
+Cell[16105, 364, 1189, 27, 38, "Input",ExpressionUUID->"7fbab6cd-a95e-43e8-8730-c7bd1df11092"],
+Cell[17297, 393, 213, 5, 35, "Text",ExpressionUUID->"356788d9-0554-461e-8101-52328fb88564"],
 Cell[CellGroupData[{
-Cell[17356, 400, 224, 4, 41, "WolframAlphaLong",ExpressionUUID->"3973a80d-a0be-4d62-91f4-eeff513b2c44"],
-Cell[17583, 406, 53316, 1055, 700, "Print",ExpressionUUID->"b9778d6e-52a1-4778-b149-5b07ab86a59f"]
+Cell[17535, 402, 278, 4, 41, "WolframAlphaLong",ExpressionUUID->"3973a80d-a0be-4d62-91f4-eeff513b2c44"],
+Cell[17816, 408, 55293, 1094, 756, "Print",ExpressionUUID->"114a6bb5-9be5-40d5-862c-a29f30c7ca3b"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[70948, 1467, 186, 3, 67, "Section",ExpressionUUID->"d2094de9-c00e-4ffc-9474-3fac2b95c5be"],
+Cell[73158, 1508, 186, 3, 67, "Section",ExpressionUUID->"d2094de9-c00e-4ffc-9474-3fac2b95c5be"],
 Cell[CellGroupData[{
-Cell[71159, 1474, 166, 3, 41, "WolframAlphaLong",ExpressionUUID->"c255643c-34e1-4098-810b-25b793a730ec"],
-Cell[71328, 1479, 12874, 268, 352, "Print",ExpressionUUID->"81ec0cfc-85d9-4314-827f-a024ae13f3d7"]
+Cell[73369, 1515, 166, 3, 41, "WolframAlphaLong",ExpressionUUID->"c255643c-34e1-4098-810b-25b793a730ec"],
+Cell[73538, 1520, 12563, 253, 352, "Print",ExpressionUUID->"00d772a4-2790-44e4-8ef2-4b89016c0f81"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[84239, 1752, 168, 3, 41, "WolframAlphaLong",ExpressionUUID->"dcdcf326-1f78-4189-82a9-92363f23812a"],
-Cell[84410, 1757, 3195, 66, 407, "Print",ExpressionUUID->"3dfad7b3-78e8-4e63-b127-4058e3da3e86"]
+Cell[86138, 1778, 168, 3, 41, "WolframAlphaLong",ExpressionUUID->"dcdcf326-1f78-4189-82a9-92363f23812a"],
+Cell[86309, 1783, 3194, 66, 407, "Print",ExpressionUUID->"963938c8-8e72-4deb-a35d-68f9e8db810a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[87642, 1828, 211, 4, 41, "WolframAlphaLong",ExpressionUUID->"adc9b8c8-1211-4085-857c-d17da5a680c6"],
-Cell[87856, 1834, 97569, 1832, 1384, "Print",ExpressionUUID->"557e805d-f219-463e-895e-dcd5c37dd3d4"]
+Cell[89540, 1854, 211, 4, 41, "WolframAlphaLong",ExpressionUUID->"adc9b8c8-1211-4085-857c-d17da5a680c6"],
+Cell[89754, 1860, 63641, 1285, 1232, "Print",ExpressionUUID->"9e643f09-5550-4628-b12a-fa21598e0ecc"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[185462, 3671, 272, 7, 30, "Input",ExpressionUUID->"ffff4d8d-4bd5-4758-8dc7-4bba0ad26bca"],
-Cell[185737, 3680, 313, 7, 56, "Output",ExpressionUUID->"6d4b5a1e-294a-434e-b7fa-a5f758d28a6d"]
+Cell[153432, 3150, 290, 6, 30, "Input",ExpressionUUID->"ffff4d8d-4bd5-4758-8dc7-4bba0ad26bca"],
+Cell[153725, 3158, 361, 8, 34, "Output",ExpressionUUID->"e3328147-e927-4268-b24c-67f4b0d81d7d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[186087, 3692, 168, 3, 41, "WolframAlphaLong",ExpressionUUID->"b6fbaee0-319a-49c3-9c04-b9e570826a29"],
-Cell[186258, 3697, 36329, 610, 256, "Print",ExpressionUUID->"6b0a6ce1-0c7f-465d-86be-73e2abfdf711"]
+Cell[154123, 3171, 186, 2, 41, "WolframAlphaLong",ExpressionUUID->"b6fbaee0-319a-49c3-9c04-b9e570826a29"],
+Cell[154312, 3175, 36613, 613, 256, "Print",ExpressionUUID->"3b8647a5-66ea-4834-a8cb-760a58699ae1"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[222624, 4312, 166, 3, 41, "WolframAlphaLong",ExpressionUUID->"8c1a17dd-1e40-42e7-b054-409899df3707"],
-Cell[222793, 4317, 29766, 514, 256, "Print",ExpressionUUID->"938e5ba0-1af6-4507-8380-1d388b635736"]
+Cell[190962, 3793, 251, 3, 41, "WolframAlphaLong",ExpressionUUID->"8c1a17dd-1e40-42e7-b054-409899df3707"],
+Cell[191216, 3798, 30070, 518, 256, "Print",ExpressionUUID->"7c8cf1b6-7f9c-4351-9be5-08646ab0d3bf"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[252596, 4836, 220, 4, 41, "WolframAlphaLong",ExpressionUUID->"57e9bfba-0964-45d0-857d-ff397c534e0e"],
-Cell[252819, 4842, 2565, 51, 347, "Print",ExpressionUUID->"1593ee40-efd4-46de-bfad-fe338323081e"]
+Cell[221323, 4321, 239, 3, 41, "WolframAlphaLong",ExpressionUUID->"57e9bfba-0964-45d0-857d-ff397c534e0e"],
+Cell[221565, 4326, 2567, 51, 347, "Print",ExpressionUUID->"4a235c96-0136-40c5-a326-f1847f962674"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[255433, 4899, 177, 3, 67, "Section",ExpressionUUID->"c3d68d01-a4ba-4317-8aff-dd540925d720"],
-Cell[255613, 4904, 315, 7, 30, "Input",ExpressionUUID->"d1b5268d-4e92-4e8b-87c1-8f57034412b4"]
+Cell[224181, 4383, 177, 3, 67, "Section",ExpressionUUID->"c3d68d01-a4ba-4317-8aff-dd540925d720"],
+Cell[224361, 4388, 315, 7, 30, "Input",ExpressionUUID->"d1b5268d-4e92-4e8b-87c1-8f57034412b4"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
