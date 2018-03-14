@@ -11,7 +11,7 @@ This repository contains the notebooks(code) and relevant datafiles accompanying
 * *V.1.0.0* Code updated to monograph release.
 
 ## Requirements
-* Code was developed and tested under *Wolfram Mathematica 11.2.0.0* and also tested in *Mathematica 11.3.0*
+* Code was developed and tested under *Wolfram Mathematica 11.2.0.0* and also tested in *Mathematica 11.3.0.0*
 
 ## Instructions
 * Download either of the Assets to your computer, and use the notebooks in Mathematica as companions to  the monograph.
