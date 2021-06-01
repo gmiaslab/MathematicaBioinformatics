@@ -35,7 +35,7 @@ This repository contains the notebooks(code) and relevant datafiles accompanying
 * [MathIOmica releases](https://github.com/gmiaslab/mathiomica/releases)
 * [MathIOmica site](https://mathiomica.org)
 
-## C. OTHER CONTACT INFORMATION
+## OTHER CONTACT INFORMATION
   * George I. Mias
   * G. Mias Lab (https://georgemias.org)
   * e-mail: gmiaslab@gmail.com
