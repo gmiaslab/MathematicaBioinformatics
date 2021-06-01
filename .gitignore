@@ -1,0 +1,10 @@
+/dev/
+/.vs/
+*.pyproj
+*.sln
+
+# Mac Files
+.DS_Store
+
+# Vscode settings
+.vscode/settings.json
