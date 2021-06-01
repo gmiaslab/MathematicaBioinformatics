@@ -8,6 +8,7 @@ A Wolfram Language Approach to Omics
 This repository contains the notebooks(code) and relevant datafiles accompanying the monograph.
 
 ## Release Notes
+* *V.1.1.0* Code updated form *Mathematica 12.3.0* and for database compatibility.
 * *V.1.0.0* Code updated to monograph release.
 
 ## Requirements
