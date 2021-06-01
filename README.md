@@ -2,7 +2,7 @@
 ## A Wolfram Language Approach to Omics
 
 A Wolfram Language Approach to Omics
-[Springer ISBN 978-3-319-72377-8](https://www.springer.com/us/book/9783319723761)
+[Springer ISBN 978-3-319-72377-8](https://doi.org/10.1007/978-3-319-72377-8)
 
 # Supplementary Files
 This repository contains the notebooks(code) and relevant datafiles accompanying the monograph.
